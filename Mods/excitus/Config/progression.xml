@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value]/@value">10,30,40,50,105</set>
+	
+	<append xpath="/progression/perks">
+	
+		<perk name="CraftSpeed" parent="Excitus" name_key="Schneller Herstellen" desc_key="Du willst nicht lange warten beim herstellen... Dann bist du hier richtig" icon="ui_game_symbol_schnellercraften">
+
+	<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus"   operation="GTE" value="2" desc_key="Excitus Level 2"/></level_requirements>
+
+	<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus"   operation="GTE" value="4" desc_key="Excitus Level 4"/></level_requirements>
+
+	<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus"   operation="GTE" value="6" desc_key="Excitus Level 6"/></level_requirements>
+
+	<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="Excitus"   operation="GTE" value="8" desc_key="Excitus Level 8"/></level_requirements>
+
+	<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="Excitus"   operation="GTE" value="10" desc_key="Excitus Level 10"/></level_requirements>	
+
+	<effect_group>
+
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="1" value=".2"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="2" value=".4"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="3" value=".5"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="4" value=".6"/>
+		<passive_effect name="CraftingTime" operation="perc_subtract" level="5" value=".7"/>
+			
+		<effect_description level="1" desc_base="20% schneller herstellen." long_desc_key="Du kannst 20 % schneller herstellen"/>
+		<effect_description level="2" desc_base="40% schneller herstellen." long_desc_key="Du kannst 40 % schneller herstellen."/>
+		<effect_description level="3" desc_base="50% schneller herstellen." long_desc_key="Du kannst 50 % schneller herstellen."/>
+		<effect_description level="4" desc_base="60% schneller herstellen." long_desc_key="Du kannst 60 % schneller herstellen."/>
+		<effect_description level="5" desc_base="70% schneller herstellen." long_desc_key="Du kannst 70 % schneller herstellen."/>
+
+	</effect_group>
+</perk>
+</append>
+
+	<append xpath="/progression/perks">
+	
+	<perk name="Speedy Harvest" parent="Excitus" name_key="Schneller Arbeiten" desc_key="Du bist es leid deine Ressourcen langsam zu nutzen? Wirf einige Fertigkeitspunkte um den Vorgang zu beschleunigen." icon="ui_game_symbol_schnellerarbeiten">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="2" desc_key="Excitus Level 2"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="4" desc_key="Excitus Level 4"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="6" desc_key="Excitus Level 6"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="8" desc_key="Excitus Level 8"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="10" desc_key="Excitus Level 10"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="medium"/>
+			<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,5" value="0.3,0.7"/>
+
+		<effect_description level="1" desc_base="Faultier" long_desc_key="Mit Axt, Spitzhacken und andere Werkzeuge um 30% Schneller schlagen."/>
+		<effect_description level="2" desc_base="Schildkröte" long_desc_key="Mit Axt, Spitzhacken und andere Werkzeuge um 40% Schneller schlagen."/>
+		<effect_description level="3" desc_base="Hase" long_desc_key="Mit Axt, Spitzhacken und andere Werkzeuge um 50% Schneller schlagen."/>
+		<effect_description level="4" desc_base="Windhund" long_desc_key="Mit Axt, Spitzhacken und andere Werkzeuge um 60% Schneller schlagen."/>
+		<effect_description level="5" desc_base="Gepard" long_desc_key="Mit Axt, Spitzhacken und andere Werkzeuge um 70% Schneller schlagen."/>
+	</effect_group>
+	
+</perk>
+		
+</append>
+	<append xpath="/progression/perks">
+		<perk name="ExpBoost" parent="Excitus" name_key="XP Boost" desc_key="Jeder möchte schneller aufsteigen, also fange an zu züchten/töten und du bist in kürzester Zeit an der Weltspitze." icon="ui_game_symbol_xpboost">
+
+	<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus"  operation="GTE" value="2" desc_key="Excitus Level 2"/></level_requirements>
+
+	<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus"  operation="GTE" value="3" desc_key="Excitus Level 3"/></level_requirements>
+
+	<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus"  operation="GTE" value="4" desc_key="Excitus Level 4"/></level_requirements>
+
+	<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="Excitus"  operation="GTE" value="6" desc_key="Excitus Level 6"/></level_requirements>
+
+	<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="Excitus"  operation="GTE" value="10" desc_key="Excitus Level 10"/></level_requirements>	
+
+	<effect_group>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.10" level="1"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.30" level="2"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.60" level="3"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.80" level="4"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.90" level="5"/>	
+
+		<effect_description level="1" desc_base="Plus 10% Exp." long_desc_key="Erhöht deinen Erfahrungsgewinn um 10%."/>
+		<effect_description level="2" desc_base="Plus 30% Exp." long_desc_key="Erhöht deinen Erfahrungsgewinn um 30%."/>
+		<effect_description level="3" desc_base="Plus 60% Exp." long_desc_key="Erhöht deinen Erfahrungsgewinn um 60%."/>
+		<effect_description level="4" desc_base="Plus 80% Exp." long_desc_key="Erhöht deinen Erfahrungsgewinn um 80%."/>
+		<effect_description level="5" desc_base="Plus 90% Exp." long_desc_key="Erhöht deinen Erfahrungsgewinn um 90%."/>
+	</effect_group>
+		</perk>
+	</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='2,5']/@tags">,vehicleGolfCartaccessories,vehicleGolfCartchassis</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='3,5']/@tags">,vehicleDirtBikeChassis,vehicleDirtBikeParts</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,vehicleChargerchassis,vehicleChargeraccessories,vehicleStallionchassis,vehicleStallionaccessories,vehicleWorkTruckchassis,vehicleWorkTruckaccessories,vehicleNovachassis,vehicleNovaaccessories,vehiclePickupchassis,vehiclePickupaccessories,vehicleGNXaccessories,vehicleGNXchassis,vehicleUAZ452chassis</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='5']/@tags">,vehicleDusterchassis,vehicleDusteraccessories,vehicleMD500chassis,vehicleMD500accessories,vehicleBRDM2chassis,vehicleBRDM2accessories,vehicleMRAPparts,vehicleMRAPaccessories,vehicleMarauderchassis,vehicleMarauderaccessories</append>
+  <append xpath="/progression/perks/perk[@name='perkYeahScience']">
+    <effect_group>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="toolBong"/>
+    </effect_group>
+  </append>
+  <append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']">
+    <effect_group>
+      <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="plantedCannabis1"/>
+    </effect_group>
+  </append>
+  <append xpath="/progression/perks">
+	
+	<perk name="perkAdvanced HD Wrench" parent="Excitus" name_key="HD Wrench" desc_key="Schalte die HD Wrench frei" icon="ui_game_symbol_hdwrench" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="6" desc_key="Excitus Level 6"/></level_requirements>
+
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="1,1" tags="HD Wrench"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: HD Wrench"/>
+				</effect_group>
+		</perk>
+		
+	</append>	
+	
+
+	
+	 <append xpath="/progression/perks">
+	
+	<perk name="perkHDM134MiniGun" parent="Excitus" name_key="HD M134 MiniGun Teile" desc_key="Schalte die HD M134 MiniGun Teile frei" icon="ui_game_symbol_minigun" icon_color="255,0,0">
+			 <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="3" desc_key="Excitus Level 3"/></level_requirements>
+			 <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="5" desc_key="Excitus Level 5"/></level_requirements>
+			 <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="10" desc_key="Excitus Level 10"/></level_requirements>
+
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="1,3" tags="HD M134 MiniGun Barrel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="2,3" tags="HD M134 MiniGun Parts"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="3" tags="HD M134 MiniGun Motor"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: HD M134 MiniGun Barrel"/>
+					<effect_description level="2" desc_key="AdvancedF1" desc_base="Freischalten: HD M134 MiniGun Parts"/>
+					<effect_description level="3" desc_key="AdvancedF1" desc_base="Freischalten: HD M134 MiniGun Motor"/>
+				</effect_group>
+		</perk>
+		
+	</append>
+	
+	
+	
+		 <append xpath="/progression/perks">
+	
+	<perk name="perkgerate" parent="Excitus" name_key="Nützliche Geräte" desc_key="Hier kannst du die HD Forge, Ofen, Wasserspender usw. Freischalten" icon="ui_game_symbol_gerete" icon_color="255,0,0">
+			 <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="3" desc_key="Excitus Level 3"/></level_requirements>
+			 <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="5" desc_key="Excitus Level 5"/></level_requirements>
+			 <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="10" desc_key="Excitus Level 5"/></level_requirements>
+			 <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="10" desc_key="Excitus Level 6"/></level_requirements>
+
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="1,4" tags="HD Forge"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="2,4" tags="workstationOven"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="3,4" tags="workingGranitSink,workingCabinetSink"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="4" tags="FunkstromBlock"/>
+				</effect_group>	
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: HD Forge" long_desc_key="Mit der HD Forge kannst du schneller Einschmelzen und Schneller Herstellen. Du kannst auch Titan herstellen und deine Base verstärken."/>
+					<effect_description level="2" desc_key="AdvancedF1" desc_base="Freischalten: Funktionierende Ofen" long_desc_key="Funktionierende Ofen. Du brauchst kein brennmeterial mehr und kannst alles Kochen"/>
+					<effect_description level="3" desc_key="AdvancedF1" desc_base="Freischalten: Funktionierende Waschbecken und Kabinett" long_desc_key="Baue ein Funktionierende Kabinett Waschbecken oder und du hast immer Wasser"/>
+					<effect_description level="4" desc_key="AdvancedF1" desc_base="Freischalten: Funkstromblock" long_desc_key="Baue FunkstromBlock Drücke R lange suche den gewünschten Block und setzte sie. Du kannst ab sofort alles Elektrische damit verbinden OHNE KABEL"/>
+				</effect_group>
+		</perk>
+		
+	</append>
+	
+	
+<insertAfter xpath="/progression/attributes/attribute[@name='attIntellect']">
+	<attribute name="Excitus" name_key="Excitus" desc_key="Excitus Skills" icon="ui_game_symbol_excitusatribute">
+		<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="2" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="2" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="2" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqGenericPoints01"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqGenericPoints01"/></level_requirements>
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="Excitus"/>
+
+			<effect_description level="1" desc_base="Excitus Level 1" long_desc_key="Du hast Excitus Level 1 erreicht"/>
+			<effect_description level="2" desc_base="Excitus Level 2" long_desc_key="Du hast Excitus Level 2 erreicht"/>
+			<effect_description level="3" desc_base="Excitus Level 3" long_desc_key="Du hast Excitus Level 3 erreicht"/>
+			<effect_description level="4" desc_base="Excitus Level 4" long_desc_key="Du hast Excitus Level 4 erreicht"/>
+			<effect_description level="5" desc_base="Excitus Level 5" long_desc_key="Du hast Excitus Level 5 erreicht"/>
+			<effect_description level="6" desc_base="Excitus Level 6" long_desc_key="Du hast Excitus Level 6 erreicht"/>
+			<effect_description level="7" desc_base="Excitus Level 7" long_desc_key="Du hast Excitus Level 7 erreicht"/>
+			<effect_description level="8" desc_base="Excitus Level 8" long_desc_key="Du hast Excitus Level 8 erreicht"/>
+			<effect_description level="9" desc_base="Excitus Level 9" long_desc_key="Du hast Excitus Level 9 erreicht"/>
+			<effect_description level="10" desc_base="Excitus Level 10" long_desc_key="Du hast Excitus Level 10 erreicht"/>
+
+
+		</effect_group>
+	</attribute>
+</insertAfter>
+ <append xpath="/progression/perks">
+	<perk name="perkMagbow" parent="Excitus" name_key="Magbow" desc_key="Schalte die Magbow frei" icon="ui_game_symbol_magbow" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="6" desc_key="Excitus Level 7"/></level_requirements>
+
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="1,1" tags="Magbow"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: Magbow" long_desc_key="Ein sehr starke MagBow sehr Leise und mit 10 Schuss Magazin"/>
+				</effect_group>
+		</perk>
+		</append>
+		
+		
+		
+			<append xpath="/progression/perks">
+	
+<perk name="GoldDigger" parent="Excitus" name_key="Gold Silber Diamant Sucher" desc_key="Maximieren dein Abbau, indem du mehr als nur Stein, sondern auch Eisen und gelegentlich einen seltenen Edelstein abbaust." icon="ui_game_symbol_diamond">
+
+	<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="2" desc_key="Excitus Level 1"/></level_requirements>
+	<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="4" desc_key="Excitus Level 2"/></level_requirements>
+	<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="6" desc_key="Excitus Level 6"/></level_requirements>
+	<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="8" desc_key="Excitus Level 8"/></level_requirements>
+	<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="10" desc_key="Excitus Level 10"/></level_requirements>
+
+	<effect_group>
+	
+		<passive_effect name="HarvestCount" operation="base_set" level="1" value="1" tags="golddiggerharvest"/>
+		
+		<passive_effect name="HarvestCount" operation="base_set" level="2" value="2" tags="golddiggerharvest"/>
+		
+		<passive_effect name="HarvestCount" operation="base_set" level="3" value="3" tags="golddiggerharvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="3" value="1" tags="silverHarvest"/>
+		
+		<passive_effect name="HarvestCount" operation="base_set" level="4" value="4" tags="golddiggerharvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="4" value="2" tags="silverHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="4" value="1" tags="goldHarvest"/>
+	
+		<passive_effect name="HarvestCount" operation="base_set" level="5" value="5" tags="golddiggerharvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="5" value="3" tags="silverHarvest"/>	
+		<passive_effect name="HarvestCount" operation="base_set" level="5" value="2" tags="goldHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_set" level="5" value="1" tags="diamondHarvest"/>	
+
+		<effect_description level="1" desc_base="Anfänger" long_desc_key="Wenn du Stein abbaust bekommst du 5 Scrapeisen extra."/>
+		<effect_description level="2" desc_base="Na ja..." long_desc_key="Wenn du Stein abbaust bekommst du 10 Scrapeisen extra."/>
+		<effect_description level="3" desc_base="Könner" long_desc_key="Wenn du Stein abbaust bekommst du 15 Scrapeisen extra und 1% change auf Silber."/>
+		<effect_description level="4" desc_base="Sieht besser aus" long_desc_key="Wenn du Stein abbaust bekommst du 20 Scrapeisen extra eine  2% Change auf Silber und 1% Change auf Gold."/>
+		<effect_description level="5" desc_base="Spezialist" long_desc_key="Wenn du Stein abbaust bekommst du 25 Scrapeisen extra 3% Change auf Silber 2% Change auf Gold und 1% Change auf Diamant."/>
+	</effect_group>
+	
+</perk>
+		
+</append>
+		 <append xpath="/progression/perks">
+	
+	<perk name="perkfallen" parent="Excitus" name_key="Fallen" desc_key="Hier kannst du Fallen Freischalten" icon="ui_game_symbol_fallen" icon_color="255,0,0">
+			 <level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="5" desc_key="Excitus Level 5"/></level_requirements>
+			 <level_requirements level="2"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="5" desc_key="Excitus Level 5"/></level_requirements>
+			 <level_requirements level="3"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="5" desc_key="Excitus Level 5"/></level_requirements>
+			 <level_requirements level="4"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="5" desc_key="Excitus Level 5"/></level_requirements>
+
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="1,4" tags="trapAdhesive"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="2,4" tags="trapShock"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="3,4" tags="trapFireEmpty"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="4" tags="trapGasCan"/>
+				</effect_group>	
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: Trap Adhesive" long_desc_key="Diese Falle verursacht keinen Schaden sondern verlangsamt jeden Feind der darüber läuft."/>
+					<effect_description level="2" desc_key="AdvancedF1" desc_base="Freischalten: Trap Schock" long_desc_key="Schockt und verlangsamt alles was über die Oberfläche läuft und Schaden verursacht"/>
+					<effect_description level="3" desc_key="AdvancedF1" desc_base="Freischalten: Trap Fire" long_desc_key="Diese Falle setzt alles in Brand was darüber läuft. Wenn es ausgeht kannst du es mit Benzin nachfüllen"/>
+					<effect_description level="4" desc_key="AdvancedF1" desc_base="Freischalten: Gaskanne" long_desc_key="Verwende diesen um entleerte Brandschutzklötze wieder aufzufüllen"/>
+				</effect_group>
+		</perk>
+		
+	</append>
+	
+	
+	
+	  <append xpath="/progression/perks">
+	
+	<perk name="Walking_dead_modus" parent="Excitus" name_key="Walking dead Modus" desc_key="Schalte Walkingdead Modus frei" icon="ui_game_symbol_wdm" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="1" desc_key="Excitus Level 1"/></level_requirements>
+				<effect_group>
+					<passive_effect name="DamageModifier" operation="base_set" value="80" level="1,1" tags="head"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: Walking dead Modus" long_desc_key="Wenn du hier ein Skillpunkt spendierst tötest du Zombies mit einem Kopftreffer Dabei spielt es keine rolle ob mit der Faust irgendeinem Gegenstand oder Waffe " />
+				</effect_group>
+
+		</perk>
+	</append>	
+	  <append xpath="/progression/perks">
+	
+	<perk name="perkmessinggen" parent="Excitus" name_key="Messing Generator" desc_key="Schalte den Messing Generator frei" icon="ui_game_symbol_messing" icon_color="255,0,0">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="Excitus" operation="GTE" value="10" desc_key="Excitus Level 10"/></level_requirements>
+
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="10" level="1,1" tags="Messing Generator"/>
+				</effect_group>
+				<effect_group>
+					<effect_description level="1" desc_key="AdvancedF1" desc_base="Freischalten: Messing Generator" long_desc_key="Dieses Abbaumaschiene kann aus dem Boden verschiedene Erze Farmen wie Eisen Kupfer usw. und daraus Messing herstellen."/>
+				</effect_group>
+		</perk>
+		
+	</append>
+</configs>

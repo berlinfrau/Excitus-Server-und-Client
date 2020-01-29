@@ -1,0 +1,3560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">classKey, classSelection,keystoneBlock</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">classKey, classSelection ,keystoneBlock</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">classKey, classSelection ,keystoneBlock</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">45</set>
+<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">105</set>
+<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">120</set>
+<append xpath="/entity_classes/entity_class[@name='animalTemplateTimid']">
+	<property name="Buffs" value="DamageDisplayBuff" />
+</append>
+<append xpath="/entity_classes/entity_class[@name='animalTemplateHostile']">
+	<property name="Buffs" value="DamageDisplayBuff" />
+</append>
+	 <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">120</set>
+	<append xpath="/entity_classes/entity_class[contains(@name,'legendary')]">
+	<property name="LootListOnDeath" value="1004"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[contains(@name,'Radiated')]">
+	<property name="LootListOnDeath" value="1004"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieWightFeral']">
+	<property name="LootListOnDeath" value="1004"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBoe']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBoeFeral']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFootballPlayer']">
+	<property name="LootListOnDeath" value="1008"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleFat']">
+	<property name="LootListOnDeath" value="1013"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieJoe']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMoe']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieArlene']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieLab']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieScreamer']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieDarlene']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMarlene']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieYo']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieYoFeral']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteve']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveFeral']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBusinessMan']">
+	<property name="LootListOnDeath" value="1014"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSnow']">
+	<property name="LootListOnDeath" value="1006"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSpider']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBurnt']">
+	<property name="LootListOnDeath" value="1016"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieNurse']">
+	<property name="LootListOnDeath" value="1002"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']">
+	<property name="LootListOnDeath" value="1003"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFatCop']">
+	<property name="LootListOnDeath" value="1015"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieMaleHazmat']">
+	<property name="LootListOnDeath" value="1005"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']">
+	<property name="LootListOnDeath" value="1007"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSoldier']">
+	<property name="LootListOnDeath" value="1000"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieDemolition']">
+	<property name="LootListOnDeath" value="1004"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieSkateboarder']">
+	<property name="LootListOnDeath" value="1009"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieCheerleader']">
+	<property name="LootListOnDeath" value="1001"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieOldTimer']">
+	<property name="LootListOnDeath" value="1010"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieBiker']">
+	<property name="LootListOnDeath" value="1011"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieFarmer']">
+	<property name="LootListOnDeath" value="1013"/>
+	</append>
+	
+	<append xpath="/entity_classes/entity_class[@name='zombieStripper']">
+	<property name="LootListOnDeath" value="1012"/>
+	</append>
+
+		<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">120</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">350</set>
+
+	<append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
+		<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+		<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="2"/> 
+		<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
+		<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="2"/>
+		<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="1,2"/>
+	</append>
+
+	<remove xpath="/entity_classes/entity_class[@name='animalChicken']"/>
+	<remove xpath="/entity_classes/entity_class[@name='animalRabbit']"/>
+
+	<append xpath="/entity_classes">
+		<entity_class name="animalChicken" extends="animalTemplateHostile">		
+			<property name="Tags" value="entity,animal,chicken,perkAT1,perkAT2,perkAT3,perkAT4,perkAT5"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
+			<property name="Prefab" value="NPC"/>
+			<property name="Class" value="EntityAnimalRabbit"/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="chicken"/>
+			<property name="Mass" value="15"/>
+			<property name="Weight" value="10"/>
+			<property name="SoundHurt" value="Animals/Bear/bearpain"/>
+			<property name="SoundDeath" value="Animals/Bear/beardeath"/>
+			<property name="SoundRandom" value="Animals/Bear/bearroam"/>
+			<property name="SoundSense" value="Animals/Bear/bearsense"/>
+			<property name="SoundAlert" value="Animals/Bear/bearalert"/>
+			<property name="SoundAttack" value="Animals/Bear/bearattack"/>
+			<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+			<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="HasDeathAnim" value="false"/>	
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+			<property name="AITask-4" value="ApproachSpot"/>
+			<property name="AITask-5" value="Look"/>
+			<property name="AITask-6" value="Wander"/>
+			<property name="AITask-7" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,18,13,EntityAnimalStag,0,0"/>
+			<property name="AITarget-5" value=""/>	
+			<property name="MoveSpeedAggro" value="2.3, 2.5"/>
+			<property name="ExperienceGain" value="200"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> <!-- animalChicken -->
+			<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		
+			<effect_group name="Base Effects">			
+				<passive_effect name="HealthMax" operation="base_set" value="25"/>
+				<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->				
+			</effect_group>		
+		</entity_class>
+
+		<entity_class name="animalRabbit" extends="animalTemplateHostile">		
+			<property name="Tags" value="entity,animal,rabbit,perkAT1,perkAT2,perkAT3,perkAT4,perkAT5"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="Class" value="EntityAnimalRabbit"/>
+			<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+			<property name="Mesh" value=""/>
+			<property name="Parent" value="Animals"/>
+			<property name="Faction" value="animals"/>
+			<property name="PhysicsBody" value="rabbit"/>
+			<property name="Mass" value="12"/>
+			<property name="Weight" value="10"/>
+			<property name="SoundRandom" value="mlionroam"/>
+			<property name="SoundAlert" value="mlionalert"/>
+			<property name="SoundHurt" value="mlionpain"/>
+			<property name="SoundDeath" value="mliondeath"/>
+			<property name="SoundAttack" value="mlionattack"/>
+			<property name="SoundSense" value="mlionsense"/>
+			<property name="SoundGiveUp" value="mliongiveup"/>
+			<property name="SwimOffset" value="2"/>
+			<property name="HasRagdoll" value="false"/>
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="Territorial"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+			<property name="AITask-4" value="ApproachSpot"/>
+			<property name="AITask-5" value="Look"/>
+			<property name="AITask-6" value="Wander"/>
+			<property name="AITask-7" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,18,13,EntityAnimalStag,0,0"/>
+			<property name="AITarget-5" value=""/>
+			<property name="MoveSpeedAggro" value="2.3, 2.5"/>
+			<property name="ExperienceGain" value="200"/>
+			<property name="DeadBodyHitPoints" value="175"/>
+
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> 
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+			<effect_group name="Base Effects">	
+				<passive_effect name="HealthMax" operation="base_set" value="25"/>
+				<passive_effect name="HealthMax" operation="perc_add" value="0"/> 			
+			</effect_group>	
+		</entity_class>
+	</append>
+	<append xpath="/entity_classes">
+		
+		<entity_class name="vehicleBRDM2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/BRDM1.unity3d?BRDM2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="932"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="BRDM2UIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleBRDM2desert">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/BRDM1.unity3d?BRDM2desert.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="932"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="BRDM2UIicon"/>
+		</entity_class>
+
+		<entity_class name="vehicleBoxTruckPlain">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/BoxTruck.unity3d?BoxTruckplain.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="931"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="BoxTruckUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleBoxTruckHostess">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/BoxTruck.unity3d?BoxTruckhostess.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="931"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="BoxTruckUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerblack">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerblack.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerblack2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerblack2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerorange">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerorange.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerorange2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerorange2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargeryellow">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargeryellow.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargeryellow2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargeryellow2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargergreen">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargergreen.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargergreen2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargergreen2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerteal">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerteal.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerteal2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerteal2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerrust">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerrust.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleChargerrust2">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Charger1.unity3d?Chargerrust2.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ChargerUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleDirtBike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityMotorcycle"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/db1.unity3d?Dirt_Bike.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="76"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+		</entity_class>
+		
+		<entity_class name="vehicleDuster">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVGyroCopter"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Duster1.unity3d?vehicleDuster.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="80"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="3"/>
+			<property name="Explosion.RadiusEntities" value="3"/>
+			<property name="Explosion.BlockDamage" value="30"/>
+			<property name="Explosion.EntityDamage" value="30"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="DusterUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleGNXBlack">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/GNX.unity3d?GNXblack.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="GNXUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleGNXRed">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/GNX.unity3d?GNXred.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="GNXUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleGolfCart">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/GolfCart.unity3d?GolfCart.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="77"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="GolfCartUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleMarauder">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Marauder1.unity3d?vehicleMarauder.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="78"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="MarauderUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleMD500">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVGyroCopter"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/MD500.unity3d?MD500heli.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="80"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="3"/>
+			<property name="Explosion.RadiusEntities" value="3"/>
+			<property name="Explosion.BlockDamage" value="30"/>
+			<property name="Explosion.EntityDamage" value="30"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="MD500UIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleMRAP">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/MRAP1.unity3d?MRAPrusty.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="933"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="MRAPUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleNova">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Nova1.unity3d?Nova.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="NovaUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleNovared">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Nova1.unity3d?Novared.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="NovaUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleNovablack">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Nova1.unity3d?Novablack.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="NovaUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehiclePickup">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/pup1.unity3d?Pickup"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="PickupUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleStalliongreen">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Stallion1.unity3d?Stalliongreen.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="SUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleStallionred">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Stallion1.unity3d?Stallionred.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="SUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleStallionblue">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Stallion1.unity3d?Stallionblue.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="SUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleStallionwhite">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Stallion1.unity3d?Stallionwhite.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="SUIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleUAZ452">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/UAZ1.unity3d?UAZ"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="UAZ452UIicon"/>
+		</entity_class>
+		
+		<entity_class name="vehicleWillyJeep">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeep.unity3d?Willy_Jeep.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+		</entity_class>
+		
+		<entity_class name="vehicleWillyJeepTopless">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Willy_Jeeptopless.unity3d?Willy_Jeeptopless.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_4x4"/>
+		</entity_class>
+		
+		<entity_class name="vehicleWorkTruck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/OOBS.unity3d?Old_Pickup.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="79"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="WorkTruckUIicon"/>
+		</entity_class>
+		
+	 </append>
+	<set xpath="/entity_classes/entity_class/property[@name='KnockdownProneStunDuration']/@value">1.0,10.0</set>
+	<set xpath="/entity_classes/entity_class/property[@name='KnockdownKneelStunDuration']/@value">1.0,10.0</set>
+
+
+
+<append xpath="/entity_classes">
+
+<entity_class name="Riesen Hase" extends="animalTemplateTimid">
+	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
+	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+	<property name="Mesh" value=""/>
+	<property name="Parent" value="Animals"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="rabbit"/>
+	<property name="Mass" value="70"/>
+	<property name="Weight" value="10"/>
+	<property name="SoundHurt" value="Animals/rabbitpain"/>
+	<property name="SoundDeath" value="Animals/rabbitdeath"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="SizeScale" value="2.0"/>
+	<property name="LootListOnDeath" value="511"/>
+	<property name="AITask-1" value="Swim"/>
+	<property name="AITask-2" value="RunawayWhenHurt"/>
+	<property name="AITask-3" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20"/>
+	<property name="AITask-4" value="Look"/>
+	<property name="AITask-5" value="Wander"/>
+	<property name="MoveSpeedPanic" value="1.3"/>
+	<property name="ExperienceGain" value="130"/>
+	<property name="DeadBodyHitPoints" value="300"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="Riesen Huhn" extends="animalTemplateTimid">
+	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityAnimalRabbit"/>
+	<property name="Parent" value="Animals"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="chicken"/>
+	<property name="Mass" value="50"/>
+	<property name="Weight" value="10"/>
+	<property name="SoundHurt" value="Animals/Chicken/chickenpain"/>
+	<property name="SoundDeath" value="Animals/Chicken/chickendeath"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="HasDeathAnim" value="false"/>
+	<property name="SizeScale" value="2.0"/>
+	<property name="LootListOnDeath" value="512"/>
+	<property name="MoveSpeedPanic" value="1"/>
+	<property name="ExperienceGain" value="130"/>
+	<property name="DeadBodyHitPoints" value="200"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="23"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="Riesen Schlange" extends="animalTemplateHostile">
+	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
+	<property name="EntityType" value="Animal"/>
+	<property name="Class" value="EntityAnimalSnake"/>
+	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
+	<property name="Mesh" value=""/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="RagdollOnDeathChance" value="0"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="PhysicsBody" value="snake"/>
+	<property name="Mass" value="45"/>
+	<property name="Weight" value="70"/>
+	<property name="Faction" value="undead"/>
+	<property name="SizeScale" value="2.0"/>
+	<property name="LootListOnDeath" value="513"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="Territorial"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityNPC,15"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,0,EntityNPC,0,0"/>
+	<property name="AITarget-5" value=""/>
+	<property name="WalkType" value="7"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
+	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
+	<property name="SoundSense" value="Animals/Snake/snakesense"/>
+	<property name="SoundAlert" value="Animals/Snake/snakealert"/>
+	<property name="SoundAttack" value="Animals/Snake/snakeattack"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxTurnSpeed" value="100"/>
+	<property name="MoveSpeed" value="0.08"/>
+	<property name="MoveSpeedAggro" value=".2, .2"/>
+	<property name="MoveSpeedPanic" value="0.2"/>
+	<property name="HandItem" value="meleeHandAnimalSnake"/>
+	<property name="AttackTimeoutDay" value="1.5"/>
+	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="ExperienceGain" value="130"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+	</effect_group>
+</entity_class>
+
+
+<entity_class name="Killer Regenwurm" extends="animalTemplateHostile">
+	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
+	<property name="EntityType" value="Animal"/>
+	<property name="Class" value="EntityAnimalSnake"/>
+	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
+	<property name="Mesh" value=""/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="RagdollOnDeathChance" value="0"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="PhysicsBody" value="snake"/>
+	<property name="Mass" value="20"/>
+	<property name="Weight" value="20"/>
+	<property name="Faction" value="undead"/>
+	<property name="SizeScale" value="0.2"/>
+	<property name="LootListOnDeath" value="513"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="Territorial"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityNPC,15"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,0,EntityNPC,0,0"/>
+	<property name="AITarget-5" value=""/>
+	<property name="WalkType" value="7"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
+	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
+	<property name="SoundSense" value="Animals/Snake/snakesense"/>
+	<property name="SoundAlert" value="Animals/Snake/snakealert"/>
+	<property name="SoundAttack" value="Animals/Snake/snakeattack"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxTurnSpeed" value="100"/>
+	<property name="MoveSpeed" value="0.08"/>
+	<property name="MoveSpeedAggro" value=".2, .2"/>
+	<property name="MoveSpeedPanic" value="0.2"/>
+	<property name="HandItem" value="meleeHandAnimalSnake"/>
+	<property name="AttackTimeoutDay" value="1.5"/>
+	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="ExperienceGain" value="100"/>
+	<property name="DeadBodyHitPoints" value="150"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="5"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="1"/>
+	</effect_group>
+</entity_class>
+
+
+
+
+
+
+<entity_class name="Anaconda" extends="animalTemplateHostile">
+		<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
+	<property name="EntityType" value="Animal"/>
+	<property name="Class" value="EntityAnimalSnake"/>
+	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
+	<property name="Mesh" value=""/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="RagdollOnDeathChance" value="0"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="PhysicsBody" value="snake"/>
+	<property name="Mass" value="45"/>
+	<property name="Weight" value="70"/>
+	<property name="Faction" value="undead"/>
+	<property name="SizeScale" value="3.5"/>
+	<property name="LootListOnDeath" value="513"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="Territorial"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityNPC,15"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityNPC,EntityPlayer"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,12,0,EntityNPC,0,0"/>
+	<property name="AITarget-5" value=""/>
+	<property name="WalkType" value="7"/>
+	<property name="SoundHurt" value="Animals/Snake/snakepain"/>
+	<property name="SoundDeath" value="Animals/Snake/snakedeath"/>
+	<property name="SoundRandom" value="Animals/Snake/snakeroam"/>
+	<property name="SoundSense" value="Animals/Snake/snakesense"/>
+	<property name="SoundAlert" value="Animals/Snake/snakealert"/>
+	<property name="SoundAttack" value="Animals/Snake/snakeattack"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxTurnSpeed" value="100"/>
+	<property name="MoveSpeed" value="0.08"/>
+	<property name="MoveSpeedAggro" value=".2, .2"/>
+	<property name="MoveSpeedPanic" value="0.2"/>
+	<property name="HandItem" value="meleeHandAnimalSnake"/>
+	<property name="AttackTimeoutDay" value="1.5"/>
+	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="ExperienceGain" value="130"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="10"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+	</effect_group>
+</entity_class>
+
+
+
+
+<entity_class name="Riesen Schwein" extends="animalTemplateHostile">
+	<property name="Tags" value="entity,animal,hostile,boar,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="PhysicsBody" value="boar"/>
+	<property name="Mass" value="200"/>
+	<property name="Mesh" value="Animals/Boar/AnimalBoarStandardRagdoll"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="RagdollOnDeathChance" value=".5"/>
+	<property name="SizeScale" value="1.5"/>
+	<property name="LootListOnDeath" value="514"/>
+	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
+	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
+	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
+	<property name="SoundDeath" value="Animals/Boar/boardeath"/>
+	<property name="SoundAttack" value="Animals/Boar/boarattack"/>
+	<property name="SoundSense" value="Animals/Boar/boarsense"/>
+	<property name="SoundGiveUp" value="Animals/Boar/boargiveup"/>
+	<property name="MoveSpeed" value="0.2"/>
+	<property name="MoveSpeedAggro" value="1.3, 1.3"/>
+	<property name="MoveSpeedPanic" value="1.6"/>
+	<property name="HandItem" value="meleeHandAnimalWolf"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+	<drop event="Harvest" name="resourceAnimalFat" count="4" tag="butcherHarvest"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="250"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+	</effect_group>
+</entity_class>
+
+</append>
+<remove xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='ReplaceMaterial0']"/>
+	<set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='ReplaceMaterial1']/@value">#@modfolder:Resources/RadEye.unity3d?GreenEye</set>
+	<remove xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']/property[@name='ReplaceMaterial0']"/>
+	<set xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']/property[@name='ReplaceMaterial1']/@value">#@modfolder:Resources/RadEye.unity3d?GreenEye</set>	
+	<remove xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieLabRadiated']/property[@name='ReplaceMaterial0']"/>
+	<set xpath="/entity_classes/entity_class[@name='zombieLabRadiated']/property[@name='ReplaceMaterial1']/@value">#@modfolder:Resources/RadEye.unity3d?GreenEye</set>	
+	<remove xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieYoRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']/property[@name='ReplaceMaterial0']"/>
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']/property[@name='ReplaceMaterial1']/@value">#@modfolder:Resources/RadEye.unity3d?GreenEye</set>	
+	<remove xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/property[@name='ReplaceMaterial0']"/>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/property[@name='ReplaceMaterial1']/@value">#@modfolder:Resources/RadEye.unity3d?GreenEye</set>	
+	<remove xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/property[@name='ReplaceMaterial1']"/>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/property[@name='ReplaceMaterial0']/@value">#@modfolder:Resources/RadEye.unity3d?GreenEye</set>	
+	<remove xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieCheerleaderRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieOldTimerRadiated']/property[@name='ReplaceMaterial0']"/>
+	<remove xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']/property[@name='ReplaceMaterial0']"/>
+    <append xpath="/entity_classes">
+    <entity_class name="zombieFemaleFatRadiated" extends="zombieFemaleFatFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>	
+    <entity_class name="zombieJoeRadiated" extends="zombieJoeFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieMoeRadiated" extends="zombieMoeFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieArleneRadiated" extends="zombieArleneFeral">  
+        <property name="ReplaceMaterial2" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieScreamerRadiated" extends="zombieScreamerFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieDarleneRadiated" extends="zombieDarleneFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieMarleneRadiated" extends="zombieMarleneFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieYoRadiated" extends="zombieYoFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieSteveRadiated" extends="zombieSteveFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieSkateboarderRadiated" extends="zombieSkateboarderFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieCheerleaderRadiated" extends="zombieCheerleaderFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieOldTimerRadiated" extends="zombieOldTimerFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>
+    <entity_class name="zombieBikerRadiated" extends="zombieBikerFeral">  
+        <property name="ReplaceMaterial1" value="#@modfolder:Resources/RadEye.unity3d?GreenEye"/>
+    </entity_class>	
+	
+    </append>
+	
+	 <append xpath="/entity_classes">
+        <entity_class name="zombieExcitusTemplateMale" extends="zombieTemplateMale">
+            <property name="EntityType" value="Zombie" />
+            <property name="Mesh" value="Zombies/zombie01Ragdoll" />
+            <property name="Prefab" value="NPC" />
+            <property name="Class" value="EntityZombie" />
+            <property name="Parent" value="Enemies" />
+            <property name="IsEnemyEntity" value="true" />
+            <property name="HandItem" value="meleeHandZombie01" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Male/zombiemalesense" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Male/zombiemalepain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack" />
+            <property name="AttackTimeoutDay" value="1.5" />
+            <property name="AttackTimeoutNight" value="1.1" />
+            <property name="WalkType" value="7" />
+            <property name="ModelType" value="ZombieUMA" />
+            <property name="RootMotion" value="true" />
+            <property name="HasRagdoll" value="true" />
+            <property name="AvatarController" value="AvatarZombieUMAController" />
+            <property name="PhysicsBody" value="zombieUMA" />
+            <property name="HasDeathAnim" value="false" />
+            <property name="TimeStayAfterDeath" value="120" />
+			<property name="LootListOnDeath" value="1011"/>
+        </entity_class>
+        <entity_class name="zombieExcitusTemplateFemale" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ZombieFemaleExcitus" />
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense" />
+        </entity_class>
+        <entity_class name="zombieExcitusHank" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieHank" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <property name="JumpMaxDistance" value="1.4, 1.5" />
+            <property name="ExperienceGain" value="750" />
+            <property name="LootDropEntityClass" value="EntityLootContainerStrong" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="250" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="9" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusEmma" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieEmma" />
+            <property name="Tags" value="entity,zombie,walker" />
+        </entity_class>
+        <entity_class name="zombieExcitusMiguel" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieMiguel" />
+            <property name="Tags" value="entity,zombie,walker" />
+        </entity_class>
+        <entity_class name="zombieExcitusGabrielle" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieGabrielle" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <property name="JumpMaxDistance" value=".5, .6" />
+            <property name="PainResistPerHit" value=".75" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="200" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="40" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusAiden" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieAiden" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="20" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusGrace" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieGrace" />
+            <property name="Tags" value="entity,zombie,walker" />
+        </entity_class>
+        <entity_class name="zombieExcitusJeff" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieJeff" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="PainResistPerHit" value=".60" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="30" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusCharlotte" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieCharlotte" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="PainResistPerHit" value=".50" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="20" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusWillie" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieWillie" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="PainResistPerHit" value=".55" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusHelen" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieHelen" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <property name="JumpMaxDistance" value=".5, .6" />
+            <property name="PainResistPerHit" value=".46" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="8" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusVince" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieVince" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="PainResistPerHit" value=".50" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="30" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusMaria" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieMaria" />
+            <property name="Tags" value="entity,zombie,walker" />
+        </entity_class>
+        <entity_class name="zombieExcitusRayah" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieRayah" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="PainResistPerHit" value=".55" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="30" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusChang" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieChang" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="150" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="25" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusJack" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieJack" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <property name="JumpMaxDistance" value="1.4, 1.5" />
+            <property name="ExperienceGain" value="750" />
+            <property name="LootDropEntityClass" value="EntityLootContainerStrong" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="250" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="50" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusClint" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieClint" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam" />
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert" />
+            <property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense" />
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain" />
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death" />
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack" />
+            <property name="HandItem" value="meleeHandZombieStrong" />
+            <property name="JumpMaxDistance" value="1.4, 1.5" />
+            <property name="ExperienceGain" value="750" />
+            <property name="LootDropEntityClass" value="EntityLootContainerStrong" />
+            <property name="PainResistPerHit" value=".50" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="200" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="30" />
+            </effect_group>
+        </entity_class>
+        <entity_class name="zombieExcitusRichie" extends="zombieExcitusTemplateMale">
+            <property name="Archetype" value="ExcitusZombieRichie" />
+            <property name="Tags" value="entity,zombie,walker" />
+        </entity_class>
+        <entity_class name="zombieExcitusRoxy" extends="zombieExcitusTemplateFemale">
+            <property name="Archetype" value="ExcitusZombieRoxy" />
+            <property name="Tags" value="entity,zombie,walker" />
+            <property name="PainResistPerHit" value=".48" />
+            <effect_group name="Base Effects">
+                <passive_effect name="HealthMax" operation="base_set" value="125" />
+                <passive_effect name="HealthMax" operation="perc_set" value="1" />
+                <passive_effect name="PhysicalDamageResist" operation="base_set" value="9" />
+            </effect_group>
+        </entity_class>
+    </append>
+	
+    <append xpath="/entity_classes">
+        <entity_class name="ExcitusZUMA" extends="zombieTemplateMale">
+            <property name="ModelType" value="ZombieUMA"/>
+            <property name="AvatarController" value="AvatarZombieUMAController"/>
+            <property name="PhysicsBody" value="zombieUMA"/>
+            <property name="HasDeathAnim" value="false"/>
+			<property name="LootListOnDeath" value="1012"/>
+            <property name="HasRagdoll" value="false"/>
+             
+            <property name="Tags" value="zombie,walker"/>
+        </entity_class>
+        <entity_class name="ExcitusZFemaleUMA" extends="ExcitusZUMA">
+            <property name="Archetype" value="ZombieFemaleUMA"/>
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+            <property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+             
+            <property name="Tags" value="zombie,walker"/>
+        </entity_class>
+        <entity_class name="ExcitusZMaleUMA" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieMaleUMA"/>
+        </entity_class>
+        <entity_class name="ExcitusZAiden" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieAiden"/>
+        </entity_class>
+        <entity_class name="ExcitusZBob" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieBob"/>
+        </entity_class>
+        <entity_class name="ExcitusZCaitlin" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieCaitlin"/>
+        </entity_class>
+        <entity_class name="ExcitusZCallie" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieCallie"/>
+        </entity_class>
+        <entity_class name="ExcitusZChang" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieChang"/>
+        </entity_class>
+        <entity_class name="ExcitusZCharlotte" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieCharlotte"/>
+        </entity_class>
+        <entity_class name="ExcitusZClint" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieClint"/>
+        </entity_class>
+        <entity_class name="ExcitusZEmma" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieEmma"/>
+        </entity_class>
+        <entity_class name="ExcitusZGabrielle" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieGabrielle"/>
+        </entity_class>
+        <entity_class name="ExcitusZGrace" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieGrace"/>
+        </entity_class>
+        <entity_class name="ExcitusZHank" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieHank"/>
+        </entity_class>
+        <entity_class name="ExcitusZHelen" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieHelen"/>
+        </entity_class>
+        <entity_class name="ExcitusZHugh" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieHugh"/>
+        </entity_class>
+        <entity_class name="ExcitusZJack" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieJack"/>
+        </entity_class>
+        <entity_class name="ExcitusZJeff" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieJeff"/>
+        </entity_class>
+        <entity_class name="ExcitusZJimmy" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieJimmy"/>
+        </entity_class>
+        <entity_class name="ExcitusZJoel" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieJoel"/>
+        </entity_class>
+        <entity_class name="ExcitusZMaria" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieMaria"/>
+        </entity_class>
+        <entity_class name="ExcitusZMercura" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieMercura"/>
+        </entity_class>
+        <entity_class name="ExcitusZMiguel" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieMiguel"/>
+        </entity_class>
+        <entity_class name="ExcitusZOfficeGirl" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieOfficeGirl"/>
+            <property name="WalkType" value="3"/>
+            <property name="MaxHealth" value="100"/>
+        </entity_class>
+        <entity_class name="ExcitusZRayah" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieRayah"/>
+             
+            <property name="Tags" value="zombie,walker"/>
+        </entity_class>
+        <entity_class name="ExcitusZRekt" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieRekt"/>
+        </entity_class>
+        <entity_class name="ExcitusZVince" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieVince"/>
+        </entity_class>
+        <entity_class name="ExcitusZWillie" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieWillie"/>
+        </entity_class>
+        <entity_class name="ExcitusZBaby" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieBaby"/>
+            <property name="MaxHealth" value="60"/>
+            <property name="Class" value="EntityZombie"/>
+            <property name="WalkType" value="8"/>
+            <property name="CanClimbLadders" value="false"/>
+            <property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
+            <property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemalescoutattack"/>
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalescoutpain"/>
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemalescoutdeath"/>
+            <property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalescoutsense"/>
+        </entity_class>
+        <entity_class name="ExcitusZBabyCrawler" extends="ExcitusZBaby">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieBaby"/>
+            <property name="Class" value="EntityZombieCrawl"/>
+            <property name="WalkType" value="4"/>
+            <property name="RotateToGround" value="true"/>
+        </entity_class>
+        <entity_class name="ExcitusZClarice" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZClarice"/>
+            <property name="WalkType" value="2" />
+        </entity_class>
+        <entity_class name="ExcitusZJane" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZJane"/>
+            <property name="WalkType" value="1" />
+        </entity_class>
+        <entity_class name="ExcitusZLibrarian" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZLibrarian"/>
+            <property name="WalkType" value="5" />
+        </entity_class>
+        <entity_class name="ExcitusZSurvivorFemale" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSurvivorFemale"/>
+            <property name="WalkType" value="7" />
+        </entity_class>
+        <entity_class name="ExcitusZVoodooFemale" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZVoodooFemale"/>
+            <property name="WalkType" value="2" />
+        </entity_class>
+        <entity_class name="ExcitusZVoodooMale" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZVoodooMale"/>
+        </entity_class>
+        <entity_class name="ExcitusZDan" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZDan"/>
+        </entity_class>
+        <entity_class name="ExcitusZSurvivorMale" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSurvivorMale"/>
+            <property name="WalkType" value="1" />
+        </entity_class>
+        <entity_class name="ExcitusZKenny" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZKenny"/>
+        </entity_class>
+        <entity_class name="ExcitusZRavager" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRavager"/>
+            <property name="WalkType" value="5" />
+        </entity_class>
+        <entity_class name="ExcitusZNerd" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZNerd"/>
+            <property name="MaxHealth" value="80" />
+            <property name="WalkType" value="7" />
+        </entity_class>
+        <entity_class name="ExcitusZInmate" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZInmate"/>
+            <property name="WalkType" value="6" />
+        </entity_class>
+        <entity_class name="ExcitusZInmateBlack" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZInmateBlack"/>
+            <property name="WalkType" value="6" />
+        </entity_class>
+        <entity_class name="ExcitusZChildFemale" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZChildFemale"/>
+            <property name="MaxHealth" value="70" />
+        </entity_class>
+        <entity_class name="ExcitusZChildMale" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZChildMale"/>
+            <property name="MaxHealth" value="70" />
+        </entity_class>
+        <entity_class name="ExcitusZRanger" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRanger"/>
+        </entity_class>
+        <entity_class name="ExcitusZScorchedRusher" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZCharred"/>
+            <property name="HandItem" value="meleeHandZombieBurning"/>
+            <property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/>
+            <property name="WalkType" value="7"/>
+            <property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
+            <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+            <property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack"/>
+            <property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
+            <property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
+            <property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
+            <property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
+            <property name="MaxHealth" value="45"/>
+        </entity_class>
+        <entity_class name="ExcitusZMartha" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZMartha"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZSally" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSally"/>
+            <property name="WalkType" value="3"/>
+        </entity_class>
+        <entity_class name="ExcitusZSunStroked" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSunStroked"/>
+            <property name="WalkType" value="5"/>
+        </entity_class>
+        <entity_class name="ExcitusZSunStrokedCrawler" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSunStroked"/>
+            <property name="Class" value="EntityZombieCrawl"/>
+            <property name="WalkType" value="4"/>
+            <property name="CanClimbLadders" value="false"/>
+            <property name="RotateToGround" value="true"/>
+        </entity_class>
+        <entity_class name="ExcitusZPunk" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZPunk"/>
+        </entity_class>
+        <entity_class name="ExcitusZRioter" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRioter"/>
+        </entity_class>
+        <entity_class name="ExcitusZRocker" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRocker"/>
+        </entity_class>
+        <entity_class name="ExcitusZFemaleRocker" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZFemaleRocker"/>
+        </entity_class>
+        <entity_class name="ExcitusZHermit" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZHermit"/>
+        </entity_class>
+        <entity_class name="ExcitusZFrank" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZFrank"/>
+        </entity_class>
+        <entity_class name="ExcitusZBikerChick" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBikerChick"/>
+        </entity_class>
+        <entity_class name="ExcitusZInfectedSurvivor" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZInfectedSurvivor"/>
+        </entity_class>
+        <entity_class name="ExcitusZInfectedLady" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZInfectedLady"/>
+        </entity_class>
+        <entity_class name="ExcitusZNude" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZNude"/>
+        </entity_class>
+        <entity_class name="ExcitusZPrisoner" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZPrisoner"/>
+        </entity_class>
+        <entity_class name="ExcitusZDriver" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZDriver"/>
+        </entity_class>
+        <entity_class name="ExcitusZFiend" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZFiend"/>
+        </entity_class>
+        <entity_class name="ExcitusZBanditSharpshooter" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditSharpshooter"/>
+            <property name="WalkType" value="5"/>
+        </entity_class>
+        <entity_class name="ExcitusZHunterSven" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZHunterSven"/>
+            <property name="WalkType" value="7"/>
+        </entity_class>
+        <entity_class name="ExcitusZPsycho" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZPsycho"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZKim" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZKim"/>
+        </entity_class>
+        <entity_class name="ExcitusZVagrant" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZVagrant"/>
+            <property name="WalkType" value="1" />
+        </entity_class>
+        <entity_class name="ExcitusZBanditSavage" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditSavage"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZBanditSentry" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditSentry"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZMitchHazmat" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZMitchHazmat"/>
+            <property name="HandItem" value="meleeHandZombieHazMat" />
+        </entity_class>
+        <entity_class name="ExcitusZMarkHazmat" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZMarkHazmat"/>
+            <property name="HandItem" value="meleeHandZombieHazMat"/>
+        </entity_class>
+        <entity_class name="ExcitusZClaireHazmat" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZClaireHazmat"/>
+            <property name="HandItem" value="meleeHandZombieHazMat" />
+        </entity_class>
+        <entity_class name="ExcitusZSueHazmat" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSueHazmat"/>
+            <property name="HandItem" value="meleeHandZombieHazMat" />
+        </entity_class>
+        <entity_class name="ExcitusZOldLady" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZOldLady"/>
+            <property name="WalkType" value="5" />
+        </entity_class>
+        <entity_class name="ExcitusZOldMan" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZOldMan"/>
+            <property name="MaxHealth" value="200"/>
+            <property name="WalkType" value="5"/>
+        </entity_class>
+        <entity_class name="ExcitusZEvilGranny" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZEvilGranny"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZSecurityGuard" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSecurityGuard"/>
+            <property name="WalkType" value="7"/>
+        </entity_class>
+        <entity_class name="ExcitusZFrozen" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
+        </entity_class>
+        <entity_class name="ExcitusZJethro" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieJethro"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="300"/>
+            <property name="WalkType" value="1"/>
+            <property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+            <property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+            <property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+        </entity_class>
+        <entity_class name="ExcitusZSeryph" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieSeryph"/>
+            <property name="WalkType" value="6"/>
+            <property name="MaxHealth" value="100"/>
+            <property name="WanderSpeed" value="0.25"/>
+            <property name="ApproachSpeed" value="0.45"/>
+            <property name="NightWanderSpeed" value="0.35"/>
+            <property name="NightApproachSpeed" value="1.05"/>
+        </entity_class>
+        <entity_class name="ExcitusZSeryphSnow" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieSeryphSnow"/>
+            <property name="WalkType" value="2"/>
+            <property name="MaxHealth" value="250"/>
+            <property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
+        </entity_class>
+        <entity_class name="ExcitusZBigBitch" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBigBitch"/>
+            <property name="MaxHealth" value="200" />
+            <property name="WalkType" value="1" />
+            <property name="HandItem" value="meleeHandZombieCop" />
+        </entity_class>
+        <entity_class name="ExcitusZLumberjack" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZLumberjack"/>
+            <property name="HandItem" value="meleeHandZombieCop" />
+            <property name="MaxHealth" value="300" />
+            <property name="WalkType" value="2" />
+            <property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam" />
+            <property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert" />
+            <property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack" />
+            <property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain" />
+            <property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath" />
+            <property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense" />
+            <property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep" />
+        </entity_class>
+        <entity_class name="ExcitusZTrucker" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZTrucker"/>
+            <property name="MaxHealth" value="200" />
+            <property name="WalkType" value="1" />
+            <property name="HandItem" value="meleeHandZombieCop" />
+        </entity_class>
+        <entity_class name="ExcitusZCharred" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZCharred"/>
+            <property name="HandItem" value="meleeHandZombieBurning" />
+            <property name="WalkType" value="7" />
+            <property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam" />
+            <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert" />
+            <property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack" />
+            <property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain" />
+            <property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath" />
+            <property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense" />
+            <property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
+            <property name="MaxHealth" value="130" />
+        </entity_class>
+        <entity_class name="ExcitusZCpl" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZCpl"/>
+            <property name="MaxHealth" value="350" />
+            <property name="WalkType" value="5" />
+        </entity_class>
+        <entity_class name="ExcitusZHunter" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZHunter"/>
+            <property name="HandItem" value="meleeHandZombieCop" />
+            <property name="MaxHealth" value="300" />
+            <property name="WalkType" value="7" />
+        </entity_class>
+        <entity_class name="ExcitusZBanditKiller" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditKiller"/>
+            <property name="HandItem" value="meleeHandZombieWorker"/>
+            <property name="MaxHealth" value="350"/>
+            <property name="WalkType" value="2"/>
+        </entity_class>
+        <entity_class name="ExcitusZBloodmoon" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBloodmoon"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="140"/>
+            <property name="WalkType" value="8"/>
+            <property name="ApproachSpeed" value="1.25"/>
+            <property name="NightApproachSpeed" value="1.25"/>
+        </entity_class>
+        <entity_class name="ExcitusZCannibalFemale" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZCannibalFemale"/>
+            <property name="MaxHealth" value="300"/>
+            <property name="WalkType" value="5"/>
+        </entity_class>
+        <entity_class name="ExcitusZCannibalMale" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZCannibalMale"/>
+            <property name="MaxHealth" value="300"/>
+            <property name="WalkType" value="7"/>
+        </entity_class>
+        <entity_class name="ExcitusZFreak" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZFreak"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="350"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZBolivar" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieBolivar"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="500"/>
+            <property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
+            <property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+        </entity_class>
+        <entity_class name="ExcitusZCur" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieCur"/>
+            <property name="WalkType" value="6"/>
+            <property name="AttackTimeoutDay" value="0.5"/>
+            <property name="AttackTimeoutNight" value="0.5"/>
+            <property name="MaxHealth" value="500"/>
+        </entity_class>
+        <entity_class name="ExcitusZSWATMale" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieSWATMale"/>
+            <property name="MaxHealth" value="800"/>
+            <property name="WalkType" value="7"/>
+        </entity_class>
+        <entity_class name="ExcitusZSWATFemale" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieSWATFemale"/>
+            <property name="MaxHealth" value="600"/>
+            <property name="WalkType" value="3"/>
+            <property name="WanderSpeed" value="0.1"/>
+            <property name="ApproachSpeed" value="0.25"/>
+            <property name="NightWanderSpeed" value="0.1"/>
+            <property name="NightApproachSpeed" value="1.15"/>
+        </entity_class>
+        <entity_class name="ExcitusZTallman" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieTallman"/>
+            <property name="MaxHealth" value="180"/>
+            <property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
+            <property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
+            <property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
+            <property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
+            <property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+            <property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
+        </entity_class>
+        <entity_class name="ExcitusZRaveReaper" extends="ExcitusZFemaleUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRaveReaper"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="WalkType" value="2"/>
+            <property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+            <property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+            <property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+            <property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+            <property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+            <property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+            <property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+            <property name="MaxHealth" value="350"/>
+        </entity_class>
+        <entity_class name="ExcitusZStripperMole" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieStripperMole"/>
+            <property name="HandItem" value="meleeHandZombieStripper"/>
+            <property name="MaxHealth" value="500"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZRegen" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRegen"/>
+            <property name="MaxHealth" value="500"/>
+            <property name="WalkType" value="2"/>
+            <property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
+            <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+            <property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack"/>
+            <property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
+            <property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
+            <property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
+            <property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
+        </entity_class>
+        <entity_class name="ExcitusZBouncer" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBouncer"/>
+            <property name="MaxHealth" value="800"/>
+            <property name="WalkType" value="2"/>
+        </entity_class>
+        <entity_class name="ExcitusZBouncerCrawler" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBouncer"/>
+            <property name="Class" value="EntityZombieCrawl"/>
+            <property name="WalkType" value="4"/>
+            <property name="CanClimbLadders" value="false"/>
+            <property name="RotateToGround" value="true"/>
+            <property name="MaxHealth" value="800"/>
+        </entity_class>
+        <entity_class name="ExcitusZSnowQueen" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZSnowQueen"/>
+            <property name="MaxHealth" value="600"/>
+            <property name="WalkType" value="7"/>
+        </entity_class>
+        <entity_class name="ExcitusZTrailerPark" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZTrailerPark"/>
+            <property name="HandItem" value="meleeHandZombieWorker" />
+            <property name="MaxHealth" value="400" />
+        </entity_class>
+        <entity_class name="ExcitusZBanditRaider" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditRaider"/>
+            <property name="HandItem" value="meleeHandZombieWorker" />
+            <property name="MaxHealth" value="500" />
+        </entity_class>
+        <entity_class name="ExcitusZReaper" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZReaper"/>
+            <property name="HandItem" value="meleeHandZombieCop" />
+            <property name="MaxHealth" value="750" />
+            <property name="WalkType" value="7" />
+        </entity_class>
+        <entity_class name="ExcitusZBanditLooter" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditLooter"/>
+            <property name="HandItem" value="meleeHandZombieWorker" />
+            <property name="MaxHealth" value="400" />
+            <property name="WalkType" value="3" />
+        </entity_class>
+        <entity_class name="ExcitusZCrazed" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZCrazed"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="350"/>
+            <property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+            <property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+            <property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+            <property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+            <property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+            <property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+            <property name="WalkType" value="8"/>
+        </entity_class>
+        <entity_class name="bkSanta" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="bkSanta"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="500"/>
+        </entity_class>
+        <entity_class name="ExcitusZBodyBuilder" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBodyBuilder"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="500"/>
+            <property name="WalkType" value="2"/>
+        </entity_class>
+        <entity_class name="ExcitusZBanditJuggernaut" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBanditJuggernaut"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="550"/>
+            <property name="WalkType" value="2"/>
+        </entity_class>
+        <entity_class name="ExcitusZMord" extends="ExcitusZFemaleUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieMord"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="750"/>
+            <property name="WalkType" value="2"/>
+            <property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+            <property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+            <property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+            <property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+            <property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+            <property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+            <property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+        </entity_class>
+        <entity_class name="ExcitusZExperiment" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZExperiment"/>
+            <property name="HandItem" value="meleeHandZombieCop" />
+            <property name="MaxHealth" value="500" />
+            <property name="WalkType" value="2" />
+            <property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam" />
+            <property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert" />
+            <property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack" />
+            <property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain" />
+            <property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath" />
+            <property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense" />
+            <property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep" />
+        </entity_class>
+        <entity_class name="ExcitusZBabyBoomer" extends="ExcitusZBaby">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieBaby"/>
+            <property name="Class" value="EntityZombieCop"/>
+            <property name="MaxHealth" value="100"/>
+            <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+            <property name="Explosion.ParticleIndex" value="8"/>
+            <property name="Explosion.RadiusBlocks" value="8"/>
+            <property name="Explosion.RadiusEntities" value="6"/>
+            <property name="Explosion.BlockDamage" value="500"/>
+            <property name="Explosion.EntityDamage" value="150"/>
+            <property name="LegsExplosionDamageMultiplier" value="0.05"/>
+            <property name="ArmsExplosionDamageMultiplier" value="0.05"/>
+            <property name="HeadExplosionDamageMultiplier" value="0.05"/>
+            <property name="ChestExplosionDamageMultiplier" value="0.05"/>
+        </entity_class>
+        <entity_class name="ExcitusZRavagerSpider" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZRavager"/>
+            <property name="MaxHealth" value="500"/>
+            <property name="CanClimbVertical" value="true"/>
+            <property name="WalkType" value="8"/>
+            <property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
+            <property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
+            <property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
+            <property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
+            <property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+            <property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
+            <property name="HeadDismemberThreshold" value="0"/>
+            <property name="LowerLegDismemberThreshold" value="0"/>
+            <property name="UpperLegDismemberThreshold" value="0"/>
+            <property name="LowerArmDismemberThreshold" value="0"/>
+            <property name="UpperArmDismemberThreshold" value="0"/>
+        </entity_class>
+        <entity_class name="ExcitusZClimber" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZClimber"/>
+            <property name="HandItem" value="meleeHandZombie02"/>
+            <property name="MaxHealth" value="800"/>
+            <property name="WalkType" value="8"/>
+            <property name="ApproachSpeed" value="1.1"/>
+            <property name="CanClimbLadders" value="false"/>
+            <property name="CanClimbVertical" value="true"/>
+            <property name="RootMotion" value="false"/>
+            <property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
+            <property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
+            <property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemalescoutattack"/>
+            <property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalescoutpain"/>
+            <property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemalescoutdeath"/>
+            <property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalescoutsense"/>
+        </entity_class>
+        <entity_class name="ExcitusZClown" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZClown"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="1500"/>
+            <property name="WalkType" value="1"/>
+        </entity_class>
+        <entity_class name="ExcitusZWarlord" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieWarlord"/>
+            <property name="Class" value="EntityZombieCop"/>
+            <property name="WalkType" value="1"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="1200"/>
+            <property name="Explosion.ParticleIndex" value="8"/>
+            <property name="Explosion.RadiusBlocks" value="3"/>
+            <property name="Explosion.RadiusEntities" value="3"/>
+            <property name="Explosion.BlockDamage" value="400"/>
+            <property name="Explosion.EntityDamage" value="70"/>
+            <property name="Explosion.DamageBonus.earth" value="0"/>
+        </entity_class>
+        <entity_class name="ExcitusZSuicideMole" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ZombieBomberMole"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="500"/>
+            <property name="Class" value="EntityZombieCop"/>
+            <property name="Explosion.ParticleIndex" value="8"/>
+            <property name="Explosion.RadiusBlocks" value="5"/>
+            <property name="Explosion.RadiusEntities" value="6"/>
+            <property name="Explosion.BlockDamage" value="500"/>
+            <property name="Explosion.EntityDamage" value="150"/>
+            <property name="Explosion.DamageBonus.earth" value="0"/>
+            <property name="WalkType" value="1"/>
+            <property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+        </entity_class>
+        <entity_class name="ExcitusZBiff" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBiff"/>
+            <property name="WalkType" value="2"/>
+            <property name="MaxHealth" value="1200"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+        </entity_class>
+        <entity_class name="ExcitusZBrute" extends="ExcitusZUMA" >
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBrute"/>
+            <property name="HandItem" value="meleeHandZombieCop" />
+            <property name="MaxHealth" value="1500" />
+            <property name="WalkType" value="8" />
+            <property name="CanClimbLadders" value="false"/>
+            <property name="SurfaceCategory" value="metal"/>
+        </entity_class>
+        <entity_class name="ExcitusZBruteBoss" extends="ExcitusZUMA">
+             
+            <property name="Tags" value="zombie,walker"/>
+            <property name="Archetype" value="ExcitusZBrute"/>
+            <property name="HandItem" value="meleeHandZombieCop"/>
+            <property name="MaxHealth" value="3300"/>
+            <property name="WalkType" value="5"/>
+            <property name="CanClimbLadders" value="false"/>
+            <property name="SurfaceCategory" value="metal"/>
+            <property name="Weight" value="300"/>
+            <property name="PushFactor" value="20"/>
+            <property name="SoundRandom" value="Enemies/Acid_Puking_Hulk/hulkroam"/>
+            <property name="SoundAlert" value="Enemies/Acid_Puking_Hulk/hulkalert"/>
+            <property name="SoundAttack" value="Enemies/Acid_Puking_Hulk/hulkattack"/>
+            <property name="SoundHurt" value="Enemies/Acid_Puking_Hulk/hulkpain"/>
+            <property name="SoundDeath" value="Enemies/Acid_Puking_Hulk/hulkdeath"/>
+            <property name="SoundSense" value="Enemies/Acid_Puking_Hulk/hulksense"/>
+            <property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+            <property name="HasDeathAnim" value="false"/>
+            <property name="HeadDismemberThreshold" value="0"/>
+            <property name="LowerLegDismemberThreshold" value="0"/>
+            <property name="UpperLegDismemberThreshold" value="0"/>
+            <property name="LowerArmDismemberThreshold" value="0"/>
+            <property name="UpperArmDismemberThreshold" value="0"/>
+        </entity_class>
+    </append>
+<append xpath="/entity_classes">  
+  
+    <entity_class name="Excitus_FeuerBoss" extends="zombieTemplateMale"> 
+	<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>
+	<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>		
+	<property name="WalkType" value="1"/>
+	<property name="SizeScale" value="1.3"/>		
+	<property name="Mass" value="500"/>		
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/> <!-- type,cooldown,duration -->
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->	
+	<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
+    <property name="SoundSpawn" value="Ambient_Loops/a_fire_embersmoke_sm_lp"/>
+	<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+	<property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack"/>
+	<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
+	<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
+	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
+	<property name="LootListOnDeath" value="1017"/>
+
+	<property name="PainResistPerHit" value="1"/>
+
+	<!-- Gameplay -->
+	<property name="HandItem" value="meleehandZombieBurningBoss"/>
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong -->	
+	<effect_group name="Base Effects">	
+		<passive_effect name="HealthMax" operation="base_set" value="1200"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+	</effect_group>
+</entity_class>	 
+
+<entity_class name="Excitus_BigBiker" extends="zombieTemplateMale">
+		<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
+		<property name="WalkType" value="7"/>		
+	<!-- Gameplay -->
+	<property name="HandItem" value="meleeHandZombieGiant"/>
+	<property name="ReplaceMaterial0" value="entities/sandbags/sandbag"/>		
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>	
+	<property name="SightRange" value="150"/>	
+	<property name="SizeScale" value="1.9"/>	
+	<property name="Mass" value="900"/>	
+	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>	
+	<property name="ExperienceGain" value="12000"/> <!-- XP strong -->
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="LootListOnDeath" value="1017"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="7000"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+	</effect_group>
+</entity_class>	
+
+<entity_class name="Excitus_Spuker" extends="zombieTemplateMale">  
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="ModelType" value="Standard"/>	
+	<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_dirt"/>	
+	<property name="WalkType" value="1"/>
+	<property name="Class" value="EntityZombieCop"/>	
+	<property name="RightHandJointName" value="Jaw"/>	
+	<property name="Mass" value="210"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/> <!-- type,cooldown,duration -->
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/><!-- Marks end, so we don't inheirit -->	
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="TintMaterial2" value="41,38,34"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+	<property name="LootListOnDeath" value="1017"/>
+
+	<!-- Gameplay -->
+	<property name="HandItem" value="meleehandZombiePuke" />
+	<property name="Explosion.ParticleIndex" value="1"/>
+	<property name="Explosion.RadiusBlocks" value="4"/>
+	<property name="Explosion.RadiusEntities" value="4"/>
+	<property name="Explosion.BlockDamage" value="555"/>
+	<property name="Explosion.EntityDamage" value="55"/>
+	<property name="Explosion.DamageBonus.earth" value="555"/>	
+	<property name="JumpMaxDistance" value="1.4, 1.5"/>
+	<property name="ExperienceGain" value="1005"/> <!-- XP strong -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="400"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+	</effect_group>
+</entity_class>		
+
+<entity_class name="Excitus_SpukerFeral" extends="Excitus_Spuker">  
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_dirt"/>		
+	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
+	<property name="LootListOnDeath" value="1017"/>
+
+	<!-- Gameplay -->
+	<property name="Explosion.ParticleIndex" value="1"/>
+	<property name="Explosion.RadiusBlocks" value="6"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Explosion.BlockDamage" value="1500"/>
+	<property name="Explosion.EntityDamage" value="70"/>
+	<property name="Explosion.DamageBonus.earth" value="1500"/>	
+	<property name="JumpMaxDistance" value="4, 8"/>
+	<property name="MoveSpeedAggro" value=".5, 1.35"/>
+
+	<property name="HandItem" value="meleeHandZombieStrongFeralPuker"/>
+
+	<property name="ExperienceGain" value="1400"/>
+	<property name="LootDropProb" value=".03"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<effect_group name="Base Effects">
+	 <passive_effect name="HealthMax" operation="base_set" value="499"/>
+	 <passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	 <passive_effect name="EntityDamage" operation="perc_add" value="0"/>
+	</effect_group>		
+</entity_class> 
+
+
+<entity_class name="Excitus_SpukerRadiated" extends="Excitus_SpukerFeral">
+	<property name="Tags" value="entity,zombie,walker,feral,radiated"/>
+	<property name="ReplaceMaterial0" value="entities/zombies/materials/moe_radiated"/>
+
+	<property name="ExperienceGain" value="1850"/> 
+	<property name="LootDropProb" value="0.06"/> 
+	<property name="LootListOnDeath" value="1017"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1199"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+		<passive_effect name="EntityDamage" operation="perc_add" value="0"/> 
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="8"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+	
+<entity_class name="Excitus_BrennenderMann" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker"/>		
+	<property name="Mesh" value="Zombies/ZombieStandardBurntRagdoll"/>
+	<property name="ReplaceMaterial0" value="entities/lighting/torch_wall_holder"/>	
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="160"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>	
+	<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
+  <property name="SoundSpawn" value="Ambient_Loops/a_fire_embersmoke_sm_lp"/>
+	<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+	<property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack"/>
+	<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
+	<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
+	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
+	<property name="LootListOnDeath" value="1017"/>
+
+	<property name="PainResistPerHit" value="1"/>
+	<property name="HandItem" value="meleehandZombieBurningSpitter"/>
+	<property name="HandItemCrawler" value="meleeHandZombieBurningCrawler"/> 	
+	<effect_group name="Base Effects">		
+		<passive_effect name="HealthMax" operation="base_set" value="145"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>	
+
+<entity_class name="Excitus_SchreierinBoss" extends="zombieTemplateMale">  
+    <property name="SizeScale" value="1.4"/>	
+    <property name="Tags" value="entity,zombie,walker"/>
+    <property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/>
+	<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_glass"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/> 
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>	
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemalescoutroam"/>
+	<property name="SoundAlert" value="Enemies/Scout_Zombie/zombiefemalescoutalert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemalescoutattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalescoutpain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemalescoutdeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalescoutsense"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="3"/>
+	<property name="Mass" value="110"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="AIPathCostScale" value=".5, .6"/>
+	<property name="LootListOnDeath" value="1017"/>
+
+	<property name="HandItem" value="meleeHandZombieScreamerBoss"/>
+	<property name="JumpMaxDistance" value="8, 16"/>	
+	<property name="ExperienceGain" value="1234"/> 
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1001"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>	
+
+<entity_class name="Excitus_Hund" extends="animalZombieDog">
+	<property name="Tags" value="entity,animal,hostile"/>
+	<property name="SizeScale" value="0.65"/>	
+	<property name="Mass" value="65"/>		
+	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
+	<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_dirt"/>		
+	<property name="Class" value="EntityZombieDog"/>
+	<property name="SoundRandomTime" value="45.0"/>
+	<property name="SoundAlertTime" value="25.0"/>
+	<property name="SoundRandom" value="Enemies/Zombie_Dogs/zombiedogroam"/>
+	<property name="SoundAlert" value="Enemies/Zombie_Dogs/zombiedogalert"/>
+	<property name="SoundHurt" value="Enemies/Zombie_Dogs/zombiedogpain"/>
+	<property name="SoundDeath" value="Enemies/Zombie_Dogs/zombiedogdeath"/>
+	<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack"/>
+	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
+	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>	
+	<property name="SightRange" value="70"/>	
+	<property name="LootListOnDeath" value="1017"/>
+	<property name="HandItem" value="meleeHandAnimalPup"/>
+	<property name="MoveSpeed" value="6"/>
+	<property name="MoveSpeedAggro" value="6, 8"/>
+	<property name="MoveSpeedPanic" value="8"/>	
+
+	<property name="ExperienceGain" value="300"/> >
+	<property name="DeadBodyHitPoints" value="450"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> 
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="6"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="70"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/> 
+	</effect_group>
+</entity_class>
+
+<entity_class name="Excitus_Schoker" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="ReplaceMaterial0" value="particleeffects/models/materials/electrical_arc"/>	
+	<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>		
+	<property name="Mesh" value="Zombies/zombieStandardFeralRagdoll"/> 
+	<property name="WalkType" value="5"/>
+	<property name="AIPathCostScale" value=".9, 1"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=8"/> 
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="ExperienceGain" value="555"/>
+	<property name="LootListOnDeath" value="1017"/>
+	<property name="HandItem" value="meleehandZombieShocker"/>
+	<effect_group name="Base Effects">		
+		<passive_effect name="HealthMax" operation="base_set" value="777"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+
+<entity_class name="Excitus_GrosseGeier" extends="animalZombieVultureRadiated">
+	<property name="Tags" value="entity,animal,zombie,hostile,radiated"/>
+	<property name="Radiated" value=""/>
+	<property name="SizeScale" value="2.1"/>
+	<property name="SightRange" value="180"/>			
+
+	<property name="MoveSpeed" value=".8"/>
+	<property name="MoveSpeedAggro" value="1.5, 1.6"/>
+	<property name="MaxTurnSpeed" value="150"/>
+	<property name="HandItem" value="meleeHandAnimalZombieVultureBig"/>	
+	
+	<property name="ExperienceGain" value="2000"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="40"/>
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="100"/>	
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="1200"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+		<passive_effect name="EntityDamage" operation="perc_add" value=".4"/> 
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="Excitus_Schiesser" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
+	<property name="ReplaceMaterial0" value="shapes/materials/road_railing"/>	
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="180"/>		
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=25"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>	
+    <property name="LootListOnDeath" value="1017"/>
+	<property name="PainResistPerHit" value="1"/>
+
+	<property name="HandItem" value="meleehandZombieGunner"/>
+	<property name="ExperienceGain" value="2000"/> 
+	<effect_group name="Base Effects">	
+		<passive_effect name="HealthMax" operation="base_set" value="1300"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+
+<entity_class name="Excitus_Geist" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie"/>
+	<property name="Mesh" value="Zombies/zombieStandardFeralRagdoll"/> 	
+	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>	
+	<property name="ReplaceMaterial0" value="particleeffects/models/materials/p_fiber"/>
+	<property name="SizeScale" value="0.7"/>	
+	<property name="SoundRandom" value=""/>
+	<property name="SoundAlert" value=""/>
+	<property name="SoundAttack" value=""/>
+	<property name="SoundHurt" value=""/>
+	<property name="SoundDeath" value=""/>
+	<property name="SoundSense" value=""/>
+	<property name="SoundFootstepModifier" value=""/>
+	<property name="WalkType" value="2"/>	
+	<property name="Mass" value="50"/>
+    <property name="LootListOnDeath" value="1017"/>
+	<property name="DismemberMultiplierHead" value=".33"/>
+	<property name="DismemberMultiplierArms" value=".33"/>
+	<property name="DismemberMultiplierLegs" value=".33"/>
+	<property name="PainResistPerHit" value=".65"/>
+	<property name="MoveSpeed" value="0.4"/>
+	<property name="MoveSpeedAggro" value="0.5, 1.0"/>	
+	<property name="HandItem" value="meleeHandZombieFootballPlayer"/>
+	<property name="JumpMaxDistance" value="8, 15"/>
+
+	<property name="ExperienceGain" value="500"/> 
+	<property name="LootDropProb" value=".03"/> 
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+		<passive_effect name="HealthMax" operation="base_set" value="300"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+		<passive_effect name="EntityDamage" operation="perc_add" value="0"/> 
+	</effect_group>
+</entity_class>
+
+<entity_class name="Excitus_FeuerElf" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="Zombies/ZombieStandardBurntRagdoll"/>
+	<property name="WalkType" value="7"/>
+	<property name="SizeScale" value="0.8"/>		
+	<property name="Mass" value="50"/>	
+	<property name="SizeScale" value="1.3"/>	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=12"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>	
+    <property name="LootListOnDeath" value="1017"/>
+	<property name="PainResistPerHit" value="1"/>
+
+	<property name="HandItem" value="meleehandZombieElf"/>
+	<property name="ExperienceGain" value="777"/> 	
+	<effect_group name="Base Effects">	
+		<passive_effect name="HealthMax" operation="base_set" value="888"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+
+<entity_class name="Excitus_WasserBoss" extends="zombieTemplateMale">  
+	<property name="Tags" value="entity,zombie,walker"/>
+	<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="ModelType" value="Standard"/>	
+	<property name="ReplaceMaterial0" value="materials/waterinbucket"/>
+	<property name="SizeScale" value="0.9"/>	
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="40"/>
+	<property name="Weight" value="20"/>
+	<property name="PushFactor" value="20"/>	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=6"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="EntityPlayer"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>	
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="TintMaterial2" value="41,38,34"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2death"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="LootListOnDeath" value="1017"/>
+
+	<property name="HandItem" value="meleehandZombieAqua" />	
+	<property name="JumpMaxDistance" value="1.4, 4"/>
+	<property name="ExperienceGain" value="700"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="390"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>	
+</append>
+
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SightRange']/@value">130</set>
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SleeperWakeupSightDetectionMin']/@value">-40,5</set>
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SleeperWakeupSightDetectionMax']/@value">-0,55</set>
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SleeperSenseSightDetectionMin']/@value">-15,10</set>
+<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SleeperSenseSightDetectionMin']/@value">99,100</set>
+
+
+<append xpath="/entity_classes">
+<entity_class name="zombieTheButcher" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="Zombies/zombieStandardFeralRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+	<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+	<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="WalkType" value="2"/>
+	<property name="Mass" value="210"/>
+
+	<property name="DismemberMultiplierHead" value=".07"/><property name="DismemberMultiplierArms" value=".07"/><property name="DismemberMultiplierLegs" value=".07"/>
+	<property name="PainResistPerHit" value=".25"/>
+
+
+	<property name="MoveSpeedAggro" value=".5, .5"/>
+	<property name="HandItem" value="meleeHandGhost"/>
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+
+	<property name="ExperienceGain" value="750"/>
+	<property name="LootDropProb" value="1"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?ButcherDistortion"/>
+	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?ButcherDistortion"/>
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+		<passive_effect name="HealthMax" operation="base_set" value="750"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+	</effect_group>
+</entity_class>
+<entity_class name="zombieTheLibrarian" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="Zombies/zombieStandardFeralRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+	<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+	<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="WalkType" value="2"/>
+	<property name="Mass" value="210"/>
+
+	<property name="DismemberMultiplierHead" value=".07"/><property name="DismemberMultiplierArms" value=".07"/><property name="DismemberMultiplierLegs" value=".07"/>
+	<property name="PainResistPerHit" value=".25"/>
+
+
+	<property name="MoveSpeedAggro" value=".5, .5"/>
+	<property name="HandItem" value="meleeHandGhost"/>
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+
+	<property name="ExperienceGain" value="750"/>
+	<property name="LootDropProb" value="1"/> 
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?LibrarianDistortion"/>
+	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?LibrarianDistortion"/>
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+		<passive_effect name="HealthMax" operation="base_set" value="750"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+<entity_class name="zombieTheBoiler" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="Zombies/zombieStandardFeralRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+	<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+	<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="WalkType" value="2"/>
+	<property name="Mass" value="210"/>
+
+	<property name="DismemberMultiplierHead" value=".07"/><property name="DismemberMultiplierArms" value=".07"/><property name="DismemberMultiplierLegs" value=".07"/>
+	<property name="PainResistPerHit" value=".25"/>
+
+	<property name="MoveSpeedAggro" value=".5, .5"/>
+	<property name="HandItem" value="meleeHandGhost"/>
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+
+	<property name="ExperienceGain" value="750"/> 
+	<property name="LootDropProb" value="1"/> 
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+
+
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?BoilerDistortion"/>
+	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?BoilerDistortion"/>
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+		<passive_effect name="HealthMax" operation="base_set" value="750"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+<entity_class name="zombieGhost" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+	<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+	<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="210"/>
+
+	<property name="DismemberMultiplierHead" value=".07"/><property name="DismemberMultiplierArms" value=".07"/><property name="DismemberMultiplierLegs" value=".07"/>
+	<property name="PainResistPerHit" value=".25"/>
+
+
+	<property name="MoveSpeedAggro" value=".5, .5"/>
+	<property name="HandItem" value="meleeHandGhost"/>
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+
+	<property name="ExperienceGain" value="750"/> 
+	<property name="LootDropProb" value=".03"/> 
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	
+
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	<property name="TimeStayAfterDeath" value="12"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+		<passive_effect name="HealthMax" operation="base_set" value="450"/> 
+	</effect_group>
+</entity_class>
+<entity_class name="zombieGhost2" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<property name="Mesh" value="Zombies/zombieStandardNurseRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
+	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
+	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
+	<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
+	<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath"/>
+	<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="WalkType" value="7"/>
+	<property name="Mass" value="210"/>
+	<property name="DismemberMultiplierHead" value=".07"/><property name="DismemberMultiplierArms" value=".07"/><property name="DismemberMultiplierLegs" value=".07"/>
+	<property name="PainResistPerHit" value=".25"/>
+	<property name="MoveSpeedAggro" value=".5, .5"/>
+	<property name="HandItem" value="meleeHandGhost"/>
+	<property name="JumpMaxDistance" value="4.6, 5"/>
+	<property name="ExperienceGain" value="750"/>
+	<property name="LootDropProb" value=".03"/> 
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	<property name="TimeStayAfterDeath" value="12"/>
+	<property name="DeadBodyHitPoints" value="350"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="DistractionResistance" operation="base_set" value="0,0"/>
+		<passive_effect name="HealthMax" operation="base_set" value="450"/>
+	</effect_group>
+</entity_class>
+<entity_class name="animalRaven" extends="animalTemplateHostile">
+	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+	<property name="Class" value="EntityVulture"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="PhysicsBody" value="vulture"/>
+	<property name="Mass" value="35"/>
+	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+	<property name="SizeScale" value=".7"/>
+	<property name="AITask-1" value=""/>
+	<property name="AITarget-1" value=""/>
+	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
+	<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
+	<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
+	<property name="SoundDeath" value="Animals/Vulture/vulturedeath"/>
+	<property name="SoundAttack" value="Animals/Vulture/vultureattack"/>
+	<property name="SoundSense" value="Animals/Vulture/vulturesense"/>
+	<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>
+	<property name="SightRange" value="70"/>
+	<property name="MoveSpeed" value="1"/>
+	<property name="MoveSpeedAggro" value="2.1, 2.1"/> 
+	<property name="MaxTurnSpeed" value="190"/>
+
+	<property name="HandItem" value="meleeHandAnimalZombieVulture"/>
+	<property name="Immunity" value="sickness;disease;wellness"/> 
+
+	<property name="DismemberMultiplierLegs" value="0"/>
+
+	<property name="DeadBodyHitPoints" value="175"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="4"/> 
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="30"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="6"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+	<drop event="Harvest" name="foodRottingFlesh" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="30"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+<entity_class name="zombieLillian" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie,walker,Lillian"/>
+	<property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/>
+	<property name="SoundRandom" value="MaleBanditChase"/>
+	<property name="SoundAlert" value="MaleBanditChase"/>
+	<property name="SoundAttack" value="MaleBanditChase"/>
+	<property name="SoundHurt" value="MaleBanditChase"/>
+	<property name="SoundDeath" value="MaleBanditChase"/>
+	<property name="SoundSense" value="MaleBanditChase"/>
+	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="WalkType" value="3"/>
+	<property name="Mass" value="250"/>
+	<property name="PhysicsBody" value="zombieFat"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	
+	<property name="PainResistPerHit" value="1"/>
+	
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostDistortion"/>
+	<property name="ReplaceMaterial1" value="particleeffects/materials/p_spark_electricity"/>
+	
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer,0,EntityNPC,0"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityEnemyAnimal,0,EntityPlayer,0,EntityNPC,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+
+	<property name="MaxTurnSpeed" value="250"/>
+	<property name="MoveSpeed" value="0.55"/>
+	<property name="MoveSpeedAggro" value="0.7, 1.25"/>
+	<property name="MoveSpeedPanic" value="0.55"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="CanClimbVertical" value="true"/>
+	<property name="JumpMaxDistance" value="2.8, 3.9"/>
+
+	<property name="HandItem" value="meleeHandLillian"/>
+	<property name="JumpMaxDistance" value=".9, 1"/>
+	
+	<property name="Buffs" value="buffLillianBuff"/>
+
+	<property name="ExperienceGain" value="550"/> 
+	<property name="LootDropProb" value="1"/> 
+	<property name="LootDropEntityClass" value="lootLillian"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="5000"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
+	</effect_group>
+</entity_class>
+
+<entity_class name="lootLillian">
+	<property name="Mesh" value="#@modfolder:Resources/MagistersMansion.unity3d?LillianFireLootPrefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="1200"/>
+	<property name="LootListOnDeath" value="432"/> 
+	<property name="Faction" value="none"/>
+</entity_class>
+<entity_class name="lootGhost">
+	<property name="Mesh" value="#@modfolder:Resources/MagistersMansion.unity3d?GhostEssencePrefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="LootListOnDeath" value="435"/>
+	<property name="Faction" value="none"/>
+</entity_class>
+
+
+</append>
+
+  <append xpath="/entity_classes">
+    <entity_class name="Killer Hase" extends="animalTemplateHostile">
+
+    	<property name="Tags" value="entity,animal,hostile,rabbit,perkAT05"/>
+    	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
+    	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
+        <property name="ModelType" value="Standard"/> 
+    	<property name="Class" value="EntityEnemyAnimal"/> 
+    	<property name="Prefab" value="/Entities/Animals/Rabbit/RABBIT"/>
+    	<property name="Mesh" value=""/>
+
+    	<property name="PhysicsBody" value="rabbit"/>
+    	<property name="Mass" value="12"/>
+    	<property name="Weight" value="10"/>
+      <property name="SoundAlert" value="Animals/rabbitpain"/>
+    	<property name="SoundHurt" value="Animals/rabbitpain"/>
+    	<property name="SoundDeath" value="Animals/Bear/beardeath"/>
+      <property name="SoundAttack" value="Animals/rabbitpain"/> 
+
+      <property name="ReplaceMaterial0" value="#@modfolder:Resources/CaerbannogTextures.unity3d?rabbit"/>
+
+    	<property name="HasRagdoll" value="false"/>
+      <property name="AITask-1" value="Leap"/> 
+    	<property name="AITask-2" value="BreakBlock"/>
+    	<property name="AITask-3" value="DestroyArea"/>
+    	<property name="AITask-4" value="Territorial"/>
+    	<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityPlayer,30,EntityNPC,30"/>
+    	<property name="AITask-6" value="ApproachSpot"/>
+    	<property name="AITask-7" value="Look"/>
+    	<property name="AITask-8" value="Wander"/>
+      <property name="AITarget-1" value="SetAsTargetIfHurt"/>
+      <property name="AITarget-2" value="BlockingTargetTask"/>
+      <property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,20,15,EntityNPC,15,10,EntityEnemyAnimal,10,3"/>
+      <property name="AITarget-4" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+      <property name="MoveSpeed" value=".6"/>
+      <property name="MoveSpeedAggro" value="2.1, 2.3"/>
+      <property name="CanClimbLadders" value="true"/> 
+
+      <property name="JumpDelay" value=".1"/>
+      <property name="JumpMaxDistance" value="1, 13"/>
+
+      <property name="SmellAlertThreshold" value="5"/> 
+
+      <property name="HandItem" value="meleeHandBossGrace"/>
+
+      <property name="ExperienceGain" value="2000"/> 
+      <property name="DeadBodyHitPoints" value="350"/> 
+      <drop event="Harvest" name="killerhasefleisch" count="1" tag="allToolsHarvest"/>
+
+    	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+    	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="4"/>
+    	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
+    	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+    	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+      <effect_group name="Base Effects">
+        <passive_effect name="EntityDamage" operation="perc_add" value=".4"/> 
+        <passive_effect name="HealthMax" operation="base_set" value="400"/> 
+        <passive_effect name="HealthMax" operation="perc_add" value="1"/> 
+      </effect_group>
+
+    </entity_class>
+
+  </append>
+  
+  
+  <append xpath="/entity_classes">	
+		<entity_class name="animalFox" extends="animalTemplateHostile">
+			<property name="Tags" value="entity,animal"/>
+			<property name="MapIcon" value="ui_game_symbol_tracking_bear"/>
+			<property name="TrackerIcon" value="ui_game_symbol_tracking_bear"/>
+			<property name="AvatarController" value="AvatarAnimalController"/> 
+			<property name="ModelType" value="Standard"/>
+			<property name="Prefab" value="NPC"/>
+			<property name="HasRagdoll" value="true"/>
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="true"/>
+			<property name="RagdollOnDeathChance" value=".9"/>
+			<property name="PhysicsBody" value="ArcticFox"/>
+			<property name="Mass" value="40"/>
+			<property name="Mesh" value="#@modfolder:Resources/ArcticFox.unity3d?ArcticFox_X"/>
+			<property name="MoveSpeed" value=".3"/>
+			<property name="MoveSpeedAggro" value="4.2, 4.2"/>
+			<property name="MoveSpeedPanic" value="4.2"/>
+			<property name="AITask-1" value="Swim"/>
+			<property name="AITask-2" value="BreakBlock"/>
+			<property name="AITask-3" value="Territorial"/>
+			<property name="AITask-4" value="RunawayWhenHurt" data="runChance=.9;healthPer=.6;healthPerMax=0.75"/>
+			<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityAnimalRabbit,8,EntityPlayer,10"/>
+			<property name="AITask-6" value="ApproachSpot"/>
+			<property name="AITask-7" value="Look"/>
+			<property name="AITask-8" value="Wander"/>
+			<property name="AITask-9" value=""/>
+			<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+			<property name="AITarget-2" value="BlockingTargetTask"/>
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,15,10,EntityAnimalRabbit,0,18"/>
+			<property name="AITarget-4" value=""/>
+			<property name="SoundRandom" value="coyoteroam"/>
+			<property name="SoundAlert" value="wolfalert"/>
+			<property name="SoundHurt" value="wolfpain"/>
+			<property name="SoundDeath" value="wolfdeath"/>
+			<property name="SoundAttack" value="wolfattack"/>
+			<property name="SoundSense" value="wolfsense"/>
+			<property name="SoundGiveUp" value="wolfgiveup"/>
+			<property name="HandItem" value="meleeHandAnimalCoyote"/>
+			<property name="ExperienceGain" value="206"/>
+			<property name="DeadBodyHitPoints" value="200"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="80"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+				<passive_effect name="StaminaMax" operation="base_set" value="100"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="1" />
+				<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryBleeding,buffInjuryBleedingZombie,buffInfectionCatch"/>
+			</effect_group>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="12"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+		</entity_class>
+		<entity_class name="animalGoat" extends="animalStag">
+			<property name="Prefab" value="NPC"/>
+			<property name="Class" value="EntityAnimalStag"/>
+			<property name="Parent" value="Animals"/>
+			<property name="SoundHurt" value="Animals/pigpain"/>
+			<property name="SoundDeath" value="Animals/pigdeath"/>
+			<property name="PhysicsBody" value="Goat"/>
+			<property name="ExperienceGain" value="130"/>
+			<property name="SwimOffset" value="0.7"/>
+			<property name="Faction" value="animals"/>
+			<property name="SoundRandom" value="GoatBell"/>
+			<property name="SoundAlert" value="GoatBaah"/>
+			<property name="SoundHurt" value="GoatBleat"/>
+			<property name="SoundDeath" value="GoatBleat"/>
+			<property name="SoundAttack" value="GoatBaah"/>
+			<property name="SoundSense" value="GoatBaah"/>
+			<property name="SoundGiveUp" value="GoatBaah"/>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="6"/>
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="15"/>
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+			<property name="Tags" value="entity,animal,perkAT05"/>
+			<property name="AvatarController" value="AvatarAnimalController"/> 
+			<property name="HasRagdoll" value="false"/> 
+			<property name="HasDeathAnim" value="true"/>
+			<property name="RootMotion" value="false"/>
+			<property name="RagdollOnDeathChance" value=".9"/>
+			<property name="Mass" value="80"/>
+			<property name="Mesh" value="#@modfolder:Resources/Goat.unity3d?Goat_X"/>
+			<property name="MoveSpeed" value=".3"/>
+			<property name="MoveSpeedAggro" value="1.2, 1.2"/> 
+			<property name="MoveSpeedPanic" value="1.2"/>
+			<property name="DeadBodyHitPoints" value="200"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="140"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+				<passive_effect name="StaminaMax" operation="base_set" value="100"/>
+				<passive_effect name="PhysicalDamageResist" operation="base_set" value="1" />
+				<passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryBleeding,buffInjuryBleedingZombie,buffInfectionCatch"/>
+			</effect_group>
+		</entity_class>		
+	</append>
+	<append xpath="/entity_classes">
+		<entity_class name="fantasySnowSwarm_X" extends="animalZombieVulture">
+			<property name="Tags" value="hostile"/>
+			<property name="Class" value="EntityVulture" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard" />
+			<property name="HasRagdoll" value="false" />
+			<property name="PhysicsBody" value="vulture" />
+			<property name="SurfaceCategory" value="earth"/>
+			<property name="Mass" value="10"/>
+			<property name="Mesh" value="#@modfolder:Resources/Swarms.unity3d?SnowSwarm2_X" /> 
+			<property name="HandItem" value="meleeHandSnowstorm" />
+			<property name="SoundRandom" value="" />
+			<property name="SoundRandomTime" value="60.0"/>
+			<property name="SoundAlert" value=""/>
+			<property name="SoundHurt" value=""/>
+			<property name="SoundDeath" value=""/>
+			<property name="SoundAttack" value=""/>
+			<property name="SoundSense" value=""/>
+			<property name="SoundGiveUp" value=""/>
+			<property name="ExperienceGain" value="1500" />
+			<property name="DeadBodyHitPoints" value="1" />
+			<property name="LootDropProb" value="0"/> 
+			<property name="TimeStayAfterDeath" value="5.0"/>
+			<property name="Buffs" value="buffSnowSwarm"/>		 
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="100"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+			</effect_group>
+			<property name="MoveSpeed" value=".2"/>
+			<property name="MoveSpeedAggro" value="1.1, 1.4"/> 
+		</entity_class> 
+		<entity_class name="fantasyBloodFlySwarm_X" extends="animalZombieVulture">
+			<property name="Tags" value="insect,hostile"/>
+			<property name="Class" value="EntityVulture" />
+			<property name="AvatarController" value="AvatarAnimalController"/>
+			<property name="ModelType" value="Standard" />
+			<property name="HasRagdoll" value="false" />
+			<property name="PhysicsBody" value="vulture" />
+			<property name="SurfaceCategory" value="organic"/>
+			<property name="Mass" value="10"/>
+			<property name="Mesh" value="#@modfolder:Resources/Swarms.unity3d?Swarm_X" /> 
+			<property name="SizeScale" value="1.0"/>
+			<property name="AttackIndexes" value="0" />
+			<property name="HandItem" value="meleeHandBloodFly" />
+			<property name="SoundRandom" value="" />
+			<property name="SoundRandomTime" value="60.0"/>
+			<property name="SoundAlert" value=""/>
+			<property name="SoundHurt" value=""/>
+			<property name="SoundDeath" value=""/>
+			<property name="SoundAttack" value=""/>
+			<property name="SoundSense" value=""/>
+			<property name="SoundGiveUp" value=""/>
+			<property name="ExperienceGain" value="1500" />
+			<property name="DeadBodyHitPoints" value="1" />
+			<property name="LootDropProb" value="0"/> 
+			<property name="TimeStayAfterDeath" value="2.0"/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="10"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/>				
+			</effect_group>
+			<property name="MoveSpeed" value=".15"/>
+			<property name="MoveSpeedAggro" value=".6, 1.0"/> 
+		</entity_class> 
+		
+	</append>
+</configs>

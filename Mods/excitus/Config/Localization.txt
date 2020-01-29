@@ -1,0 +1,544 @@
+Key,Source,Context,Changes,English,german
+vehicleBoxTruckPlain,vehicles,vehicle,new,Box Truck,Kastenwagen,,,,
+vehicleBoxTruckPlainplaceable,vehicles,item,EnChanged,Box Truck,Kastenwagen,,,,
+vehicleBoxTruckPlainplaceableDesc,vehicles,item,EnChanged,An old Box Truck.,Ein alter Kastenwagen,,,,
+vehicleBoxTruckHostess,vehicles,vehicle,new,Hostess Box Truck,Hostess Kastenwagen,,,,
+vehicleBoxTruckHostessplaceable,vehicles,item,EnChanged,Hostess Box Truck,Hostess Kastenwagen,,,,
+vehicleBoxTruckHostessplaceableDesc,vehicles,item,EnChanged,Kastenwagen,Kastenwagen,,,,
+vehicleGNXchassis,items,Part,EnChanged,GNX Chassis,GNX Fahrgestell,,,,
+vehicleGNXchassisDesc,items,Part,EnChanged,Parts needed to craft the GNX. Grease Monkey level 4 required.,Teile die zum Herstellen des GNX benötigt werden. Mechaniker Level 4 erforderlich,,,,
+vehicleGNXaccessories,items,Part,EnChanged,GNX Accessories,GNX Zubehör,,,,
+vehicleGNXaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the GNX.,Teile die zum Herstellen des GNX benötigt werden,,,,
+vehicleGNXBlack,vehicles,vehicle,new,GNX Black,GNX Schwarz,GNX Schwarz,,,
+vehicleGNXBlackplaceable,vehicles,item,EnChanged,GNX Black,GNX Schwarz,,,,
+vehicleGNXBlackplaceableDesc,vehicles,item,EnChanged,Cruise the wasteland in style!,Fahre stilvoll durch die Wüste,,,,
+vehicleGNXRed,vehicles,vehicle,new,GNX Red,GNX Rot,,,,
+vehicleGNXRedplaceable,vehicles,item,EnChanged,GNX Red,GNX Rot,,,,
+vehicleGNXRedplaceableDesc,vehicles,item,EnChanged,Cruise the wasteland in style!,Fahre stilvoll durch die Wüste,,,,
+vehicleGolfCart,vehicles,vehicle,new,Golf Cart,Golfwagen,,,,
+vehicleGolfCartchassis,items,Part,EnChanged,Golf Cart Chassis,Golfwagen Fahrgestell,,,,
+vehicleGolfCartchassisDesc,items,Part,EnChanged,Parts needed to craft the Golf Cart. Grease Monkey level 2 required.,Teile die für die Herstellung des Golfwagens benötigt werden. Mechaniker Level 2 erforderlich,,,,
+vehicleGolfCartaccessories,items,Part,EnChanged,Gold Cart Accessories,Golfwagen Zubehör,,,,
+vehicleGolfCartaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Golf Cart. Grease Monkey level 2 required.,Teile die für die Herstellung des Golfwagens benötigt werden. Mechaniker Level 2 erforderlich,,,,
+vehicleGolfCartplaceable,vehicles,item,EnChanged,Gold Cart,Golfwagen,,,,
+vehicleGolfCartplaceableDesc,vehicles,item,EnChanged,It might not be much but it's better than walking!,Es ist vielleicht nicht viel aber es ist besser als zu Fuß!,,,,
+meleeGolfClub,items,Melee,KgNone,Golf Club,Golf Club,,,,
+meleeGolfClubDesc,items,Melee,KgNone,No golf balls? There's always plenty of zombies to practice that swing on!,Keine Golfbälle? Es gibt immer viele Zombies auf denen man diesen Swing üben kann!,,,,
+vehicleWillyJeep,vehicles,vehicle,new,Willy Jeep,Willy Jeep,,,,
+vehicleWillyJeepplaceable,vehicles,item,EnChanged,Willy Jeep,Willy Jeep,,,,
+vehicleWillyJeepplaceableDesc,vehicles,item,EnChanged,If it survived WW2 surely it can handle this!,Wenn es den Zweiten Weltkrieg überlebt hat kann es das mit Sicherheit schaffen!,,,,
+vehicleWillyJeepTopless,vehicles,vehicle,new,Willy Jeep Topless,Willy Jeep oben ohne,,,,
+vehicleWillyJeepToplessplaceable,vehicles,item,EnChanged,Willy Jeep Topless,Willy Jeep oben ohne,,,,
+vehicleWillyJeepToplessplaceableDesc,vehicles,item,EnChanged,Now with even more wind-in-hair action!,Jetzt mit noch mehr Wind-in-Haaren-Action,,,,
+vehicleMRAP,vehicles,vehicle,new,MRAP,,,,,
+vehicleMRAPplaceable,vehicles,item,EnChanged,MRAP,MRAP,,,,
+vehicleMRAPplaceableDesc,vehicles,item,EnChanged,A MRAP military vehicle. What else could you want?,Ein MRAP-Militärfahrzeug. Was willst du noch?,,,,
+vehicleMRAPaccessories,items,Part,EnChanged,MRAP Accessories,MRAP Zubehör,,,,
+vehicleMRAPaccessoriesDesc,items,Part,EnChanged,Accessories needed to craft the MRAP.,Für die Herstellung des MRAP benötigtes Zubehör.,,,,
+vehicleMRAPparts,items,Part,EnChanged,MRAP Parts,MRAP-Teile,,,,
+vehicleMRAPpartsDesc,items,Part,EnChanged,Parts needed to craft the MRAP.,Teile die zur Herstellung des MRAP benötigt werden,,,,
+vehicleMarauder,vehicles,vehicle,new,Marauder,Monster Wagen,,,,
+vehicleMarauderplaceable,vehicles,item,EnChanged,Marauder,Monster Wagen,,,,
+vehicleMarauderplaceableDesc,vehicles,item,EnChanged,Those zombies will be jealous of this ride!,Diese Zombies werden neidisch auf diese Fahrt sein!,,,,
+vehicleMarauderchassis,items,Part,EnChanged,Marauder Chassis,Monster Wagen Fahrgestell,,,,
+vehicleMarauderchassisDesc,items,Part,EnChanged,Parts needed to craft the Marauder. Grease Monkey level 5 required.,Teile die benötigt werden, um den Monster Wagen herzustellen. Mechaniker Level 5 erforderlich,,,,
+vehicleMarauderaccessories,items,Part,EnChanged,Marauder Accessories,Monster Wagen Zubehör,,,,
+vehicleMarauderaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Marauder.,Teile die benötigt werden um den Monster Wagen herzustellen,,,,
+vehicleUAZ452chassis,items,Part,EnChanged,UAZ 452 Chassis,UAZ 452 Fahrgestell,,,,
+vehicleUAZ452chassisDesc,items,Part,EnChanged,Parts needed to craft the UAZ 452. Grease Monkey level 4 required.,Für die Herstellung des UAZ 452 benötigte Teile. Mechaniker Level 4 erforderlich,,,,
+vehicleUAZ452,vehicles,vehicle,new,UAZ 452,UAZ 452,,,,
+vehicleUAZ452placeable,vehicles,item,EnChanged,UAZ 452,UAZ 452,,,,
+vehicleUAZ452placeableDesc,vehicles,item,EnChanged,Blend right in with the apocalypse!,Verschmelze mit der Apokalypse!,,,,
+vehicleNovachassis,items,Part,EnChanged,Nova Chassis,Nova Fahrgestell,,,,
+vehicleNovachassisDesc,items,Part,EnChanged,Parts needed to craft the Nova. Grease Monkey level 4 required.,Teile die zum Herstellen der Nova benötigt werden. Mechaniker Level 4 erforderlich,,,,
+vehicleNovaaccessories,items,Part,EnChanged,Nova Accessories,Nova Zubehör,,,,
+vehicleNovaaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Nova.,Teile die zum Herstellen der Nova benötigt werden,,,,
+vehicleNova,vehicles,vehicle,new,Nova,Nova,,,,
+vehicleNovaplaceable,vehicles,item,EnChanged,Nova,Nova,,,,
+vehicleNovaplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch...,,,,
+vehicleNovared,vehicles,vehicle,new,Nova Red,Nova Rot,,,,
+vehicleNovaredplaceable,vehicles,item,EnChanged,Nova Red,Nova Rot,,,,
+vehicleNovaredplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch...,,,,
+vehicleNovablack,vehicles,vehicle,new,Nova Black,Nova Schwarz,,,,
+vehicleNovablackplaceable,vehicles,item,EnChanged,Nova Black,Nova Schwarz,,,,
+vehicleNovablackplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch...,,,,
+vehicleWorkTruckchassis,items,Part,EnChanged,Work Truck Chassis,Arbeits-LKW-Fahrgestell,,,,
+vehicleWorkTruckchassisDesc,items,Part,EnChanged,Parts needed to craft the Work Truck. Grease Monkey level 4 required.,Teile die zum Herstellen des Arbeitslastwagens benötigt werden. Mechaniker Level 4 erforderlich,,,,
+vehicleWorkTruckaccessories,items,Part,EnChanged,Work Truck Accessories,Arbeits-LKW-Zubehör,,,,
+vehicleWorkTruckaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Work Truck.,Teile die zum Herstellen des Arbeitslastwagens benötigt werden,,,,
+vehicleWorkTruck,vehicles,vehicle,new,Work Truck,Arbeits-LKW,,,,
+vehicleWorkTruckplaceable,vehicles,item,EnChanged,Work Truck,Arbeits-LKW,,,,
+vehicleWorkTruckplaceableDesc,vehicles,item,EnChanged,Looks like it's been through more than just an apocalypse...,Sieht aus wie es mehr als nur eine Apokalypse durchgemacht hat..,,,,
+vehicleBRDM2chassis,items,Part,EnChanged,BRDM-2 Chassis,BRDM-2 Fahrgestell,,,,
+vehicleBRDM2chassisDesc,items,Part,EnChanged,Parts needed to craft the BRDM-2. Grease Monkey level 5 required.,Teile die für die Herstellung des BRDM-2 benötigt werden. Mechaniker Level 5 erforderlich,,,,
+vehicleBRDM2accessories,items,Part,EnChanged,BRDM-2 Accessories,BRDM-2 Zubehör,,,,
+vehicleBRDM2accessoriesDesc,items,Part,EnChanged,Parts needed to craft the BRDM-2.,Teile die für die Herstellung des BRDM-2 benötigt werden,,,,
+vehicleBRDM2,vehicles,vehicle,new,BRDM-2,BRDM-2,,,,
+vehicleBRDM2placeable,vehicles,item,EnChanged,BRDM-2,BRDM-2,,,,
+vehicleBRDM2placeableDesc,vehicles,item,EnChanged,A surprisingly intact military vehicle.,Ein überraschend intaktes Militärfahrzeug,,,,
+vehicleBRDM2desert,vehicles,vehicle,new,BRDM-2 Desert,BRDM-2 Wüste,,,,
+vehicleBRDM2desertplaceable,vehicles,item,EnChanged,BRDM-2 Desert,BRDM-2 Wüste,,,,
+vehicleBRDM2desertplaceableDesc,vehicles,item,EnChanged,A surprisingly intact military vehicle.,Ein überraschend intaktes Militärfahrzeug,,,,
+vehiclePickupchassis,items,Part,EnChanged,Pickup Chassis,Pickup-Fahrgestell,,,,
+vehiclePickupchassisDesc,items,Part,EnChanged,Parts needed to craft the Pickup. Grease Monkey level 4 required.,Teile die für die Herstellung des Pickups benötigt werden. Mechaniker Level 4 erforderlich,,,,
+vehiclePickupaccessories,items,Part,EnChanged,Pickup Accessories,Pickup-Zubehör,,,,
+vehiclePickupaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Pickup.,Teile die für die Herstellung des Pickups benötigt werden,,,,
+vehiclePickup,vehicles,vehicle,new,Pickup,Pickup,,,,
+vehiclePickupplaceable,vehicles,item,EnChanged,Pickup,Pickup,,,,
+vehiclePickupplaceableDesc,vehicles,item,EnChanged,Make those zeds jealous with this stylish truck!,Mache alle eifersüchtig mit diesem stylischen Truck!,,,,
+vehicleMD500chassis,items,Part,EnChanged,MD-500 Chassis,MD-500 Fahrgestell,,,,
+vehicleMD500chassisDesc,items,Part,EnChanged,Parts needed to craft the MD-500. Grease Monkey level 5 required.,Teile die zum Herstellen des MD-500 benötigt werden. Mechaniker Level 5 erforderlich,,,,
+vehicleMD500accessories,items,Part,EnChanged,MD-500 Accessories,MD-500 Zubehör,,,,
+vehicleMD500accessoriesDesc,items,Part,EnChanged,Parts needed to craft the MD-500.,Teile die für die Herstellung des MD-500 benötigt werden,,,,
+vehicleMD500,vehicles,vehicle,new,MD-500,MD-500,,,,
+vehicleMD500placeable,vehicles,item,EnChanged,MD-500,MD-500,,,,
+vehicleMD500placeableDesc,vehicles,item,EnChanged,They can't kill you if they can't hit you!,Sie können dich nicht töten wenn sie dich nicht schlagen können!,,,,
+vehicleDusterchassis,items,Part,EnChanged,Duster Chassis,Duster Fahrgestell,,,,
+vehicleDusterchassisDesc,items,Part,EnChanged,Parts needed to craft the Duster. Grease Monkey level 5 required.,Teile die zum Herstellen des Dusters benötigt werden. Mechaniker Level 5 erforderlich,,,,
+vehicleDusteraccessories,items,Part,EnChanged,Duster Accessories,Duster Zubehör,,,,
+vehicleDusteraccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Duster.,Teile die zum Herstellen des Dusters benötigt werden,,,,
+vehicleDuster,vehicles,vehicle,new,Duster,Duster,,,,
+vehicleDusterplaceable,vehicles,item,EnChanged,Duster,Duster,,,,
+vehicleDusterplaceableDesc,vehicles,item,EnChanged,It looks like it should fly...,Es sieht aus wie es fliegen sollte ...,,,,
+vehicleStallionchassis,items,Part,EnChanged,Stallion Chassis,Stallion Fahrgestell,,,,
+vehicleStallionchassisDesc,items,Part,EnChanged,Parts needed to craft the Stallion. Grease Monkey level 4 required.,Teile die benötigt werden um den Stallion herzustellen. Mechaniker Level 4 erforderlich.,,,,
+vehicleStallionaccessories,items,Part,EnChanged,Stallion Accessories,Stallion Zubehör,,,,
+vehicleStallionaccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Stallion.,Teile die benötigt werden um den Stallion herzustellen,,,,
+vehicleStalliongreen,vehicles,vehicle,new,Stallion,Stallion,,,,
+vehicleStalliongreenplaceable,vehicles,item,EnChanged,Stallion Green,Stallion Grün,,,,
+vehicleStalliongreenplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch,,,,
+vehicleStallionred,vehicles,vehicle,new,Stallion,Stallion,,,,
+vehicleStallionredplaceable,vehicles,item,EnChanged,Stallion Red,Stallion Rot,,,,
+vehicleStallionredplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch,,,,
+vehicleStallionblue,vehicles,vehicle,new,Stallion,Stallion,,,,
+vehicleStallionblueplaceable,vehicles,item,EnChanged,Stallion Blue,Stallion Blau,,,,
+vehicleStallionblueplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch,,,,
+vehicleStallionwhite,vehicles,vehicle,new,Stallion,Stallion,,,,
+vehicleStallionwhiteplaceable,vehicles,item,EnChanged,Stallion White,Stallion Weiss,,,,
+vehicleStallionwhiteplaceableDesc,vehicles,item,EnChanged,Classic...,Klassisch,,,,
+vehicleDirtBike,vehicles,vehicle,new,Dirt Bike,Dirt Bike,,,,
+vehicleDirtBikeplaceable,vehicles,item,EnChanged,Dirt Bike,Dirt Bike,,,,
+vehicleDirtBikeplaceableDesc,vehicles,item,EnChanged,A dirt bike. And no neighbors to complain about it. Sweet!,Ein Dirtbike. Und keine Nachbarn die sich darüber beschweren könnten. Süss!,,,,
+vehicleDirtBikeChassis,items,Part,EnChanged,Dirt Bike Chassis,Dirt Bike Fahrgestell,,,,
+vehicleDirtBikeChassisDesc,items,Part,EnChanged,The beginning of something...awesome!,Der Anfang von etwas ... großartig!,,,,
+vehicleDirtBikeParts,items,Part,EnChanged,Dirt Bike Parts,Dirt Bike Teile,,,,
+vehicleDirtBikePartsDesc,items,Part,EnChanged,You might need these.,Du könntest diese brauchen.,,,,
+vehicleChargerchassis,items,Part,EnChanged,Charger Chassis,Charger Fahrgestell,,,,
+vehicleChargerchassisDesc,items,Part,EnChanged,Parts needed to craft the Charger. Grease Monkey level 4 required.,Teile die zum Herstellen des Chargers benötigt werden. Mechaniker Level 4 erforderlich,,,,
+vehicleChargeraccessories,items,Part,EnChanged,Charger Accessories,Charger Zubehör,,,,
+vehicleChargeraccessoriesDesc,items,Part,EnChanged,Parts needed to craft the Charger.,Benötigte Teile zum Herstellen der Chargers,,,,
+vehicleChargerorange,vehicles,vehicle,new,Charger,Charger,,,,
+vehicleChargerorangeplaceable,vehicles,item,EnChanged,Charger,Charger,,,,
+vehicleChargerorangeplaceableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerorange2,vehicles,vehicle,new,Charger,Charger,,,,
+vehicleChargerorange2placeable,vehicles,item,EnChanged,Charger,Charger,,,,
+vehicleChargerorange2placeableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerblack,vehicles,vehicle,new,Charger,Charger,,,,
+vehicleChargerblackplaceable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargerblackplaceableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerblack2,vehicles,vehicle,new,Charger,,,,,
+vehicleChargerblack2placeable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargerblack2placeableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargeryellow,vehicles,vehicle,new,Charger,,,,,
+vehicleChargeryellowplaceable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargeryellowplaceableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargeryellow2,vehicles,vehicle,new,Charger,,,,,
+vehicleChargeryellow2placeable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargeryellow2placeableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargergreen,vehicles,vehicle,new,Charger,,,,,
+vehicleChargergreenplaceable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargergreenplaceableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargergreen2,vehicles,vehicle,new,Charger,,,,,
+vehicleChargergreen2placeable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargergreen2placeableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerteal,vehicles,vehicle,new,Charger,,,,,
+vehicleChargertealplaceable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargertealplaceableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerteal2,vehicles,vehicle,new,Charger,,,,,
+vehicleChargerteal2placeable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargerteal2placeableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerrust,vehicles,vehicle,new,Charger,,,,,
+vehicleChargerrustplaceable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargerrustplaceableDesc,vehicles,item,EnChanged,Classic...,,,,,
+vehicleChargerrust2,vehicles,vehicle,new,Charger,,,,,
+vehicleChargerrust2placeable,vehicles,item,EnChanged,Charger,,,,,
+vehicleChargerrust2placeableDesc,vehicles,item,EnChanged,Classic...,,,,,
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+workstationOven,,blocks,Block,New,Funktionierende Ofen,unktionierende Ofen,,,,
+workstationOvenDesc,,blocks,Block,New,Dieser Arbeitsofen kann verwendet werden um viele verschiedene Rezepte ohne Verwendung einer Brennstoffquelle zu kochen.,,,,,
+WorkingSinkDesc,,blocks,Block,New,Diese Waschbecken kann als Quelle für sauberes Wasser verwendet werden. Füllen deine Gläser mit Wasser indem du mit der linken Maustaste darauf klickst.,,,,,
+workingGranitSink,,blocks,Block,New,Funktionierende Waschbecken,,,,,
+workingCabinetSink,,blocks,Block,New,Funktionierende Kabinett,,,,,
+Key,Source,Context,Changes,English,german
+perkYeahScienceRank3LongDesc,progression,Perk,New,"Deine Freunde nennen dich den Chemiker und deine Feinde boomen. Stelle Erste-Hilfe-Sets Blutentnahmesets Bongs Steroide Militärfasern und Hub-Cap-Minen her."
+plantedCannabis1,blocks,Farming,New,Cannabis (Samen)
+plantedCannabis1Desc,blocks,Farming,New,"Pflanze Hanfsamen in gedüngten Boden um Cannabispflanzen zu züchten."
+plantedCannabis1Schematic,blocks,Farming,New,Cannabis (Samen) Rezept
+plantedCannabis2,blocks,Farming,New,Cannabis (Anbau)
+plantedCannabis3Harvest,blocks,Farming,New,Cannabis Pflanze 3 (POI)
+plantedCannabis3HarvestDesc,blocks,Farming,New,"Cannabis Pflanze"
+plantedCannabis3HarvestPlayerDesc,blocks,Farming,New,"Cannabis Pflanze"
+plantedCannabisHarvestRandomHelper,blocks,Farming,New,=Cannabis = Zufälliger Helfer
+buffDrugSmokedJointDesc,buffs,Buff,New,"Du hast viel Cannabis gegessen oder geraucht und hast dich dadurch besser und auch ziemlich hungrig gefühlt. 15% weniger Schaden +1 auf Seelenstärke und -1 auf Wahrnehmung."
+buffDrugSmokedJointName,buffs,Buff,New,[9acc8b]Joint Geraucht[-]
+buffDrugSmokedJointTooltip,buffs,Buff,New,Du bist high.
+buffDrugRippedBongDesc,buffs,Buff,New,"Cannabis hat dich sehr angesprochen und du fühlst dich besser und auch sehr hungrig. Der Schaden wurde um 25% verringert +2 auf Stärke und -2 auf Wahrnehmung."
+buffDrugRippedBongName,buffs,Buff,New,[9acc8b]Benutzt Bong[-]
+buffDrugRippedBongTooltip,buffs,Buff,New,Du bist wirklich high.
+resourceCropCannabisBud,items,Farming,New,Cannabis Bund
+resourceCropCannabisBudDesc,items,Farming,New,"Nützlich für eine Vielzahl von medizinischen Anwendungen von Rollverbindungen bis zum Füllen von Bongs."
+drugCannabisJointUnrolled,items,Medical,New,Cannabis Joint [ccba8b](Ungerollt)[-]
+drugCannabisJointUnrolledDesc,items,Medical,New,"Du musst einige Zeit damit verbringen dies in einen rauchbaren Joint zu rollen. Bis dahin wird es etwas Platz in Anspruch nehmen damit du es nicht ruinierst."
+drugCannabisJointRolled,items,Medical,New,Cannabis Joint [9acc8b](Gerollt)[-]
+drugCannabisJointRolledDesc,items,Medical,New,"Das Rauchen dieses Cannabis Joint verbessert sofort deine Gesundheit und ermöglicht es dir einige Schmerzen zu ignorieren aber du wirst unkonzentriert und hungrig."
+toolBong,items,Medical,New,Bong
+toolBongDesc,items,Medical,New,"Du kannst dies mit einigen Cannabisknospen kombinieren um es aufzufüllen."
+toolBongDirty,items,Medical,New,Bong [ccba8b](Schmutzig)[-]
+toolBongDirtyDesc,items,Medical,New,"Misst! Das muss gereinigt werden bevor du es benutzen kannst. Bring es zu einem Fluss oder See?"
+toolBongFilled,items,Medical,New,Bong [9acc8b](Gefüllt)[-]
+toolBongFilledDesc,items,Medical,New,"Das benutzen dieser Bong verbessert sofort deine Gesundheit und ermöglicht es dir eine Menge Schmerzen zu ignorieren aber du wirst ziemlich unkonzentriert und sehr hungrig."
+Key,Source,Context,Changes,English
+HDGunOilDesc,itmes,,,HDGun Oil is required in the making of ALL specialised Repair kits.
+RepairKitHandGuns,items,Item,KgNone,HD RepairKit Hand Guns,
+RepairKitHandGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hand Guns.
+RepairKitAutomaticRifles,items,Item,KgNone,HD RepairKit Automatic Rifles,
+RepairKitAutomaticRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Automatic Guns.
+RepairKitShotGuns,items,Item,KgNone,HD RepairKit Shot Guns,
+RepairKitShotGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Shot Guns.
+RepairKitHuntingRifles,items,Item,KgNone,HD RepairKit Hunting Rifles,
+RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting & Sniper Rifles.
+HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
+HDM134MPDesc,items,,,This is the Housing & Parts of the HD Minigun.
+HDM134MMDesc,items,,,This is the Motor & other moving parts to the HD Minigun.
+Ammo Supply 9mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply 44MagDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply 762mmDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply ShotgunDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply ShotgunSlugDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply Breach SlugDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply ShredderDesc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply DE50Desc,items,Ammo,New,You've Just found a bag of ammo !!
+Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
+HDEDescitems,items,,,Used in the creation of Shock Ammo.
+HD1911Desc,items,weapons,New,The M1911 A1 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the 45 ACP Bullet
+HDDEDesc,items,weapons,New,The Desert Eagle is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version.
+HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions.
+HDTARDesc,items,weapons,New,Manufactured with extensive use of aluminum alloys and synthetic materials. It is a semi-automatic version of the United States military M16 rifle place points into MachineGunner to craft better versions.
+HDM500Desc,items,weapons,New,kick Ass And Chew Bubble Gum with this Militart Grade Mossberg 500 Shotgun Place points into Boomstick to craft a better version.
+BulletINCDesc,items,,,Ammo designed to set your target on fire.
+BulletSHDesc,items,,,Ammo designed to Shock your target.
+D9A10Desc,items,Ammo,New,Now that your 9mm Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DHP9A10Desc,items,Ammo,New,Now that your 9mm HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DAP9A10Desc,items,Ammo,New,Now that your 9mm AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+D44MA10Desc,items,Ammo,New,Now that your 44Mag Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DHP44MA10Desc,items,Ammo,New,Now that your 44Mag HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DAP44MA10Desc,items,Ammo,New,Now that your 44Mag AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+D762A10Desc,items,Ammo,New,Now that your 762 Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DHP762A10Desc,items,Ammo,New,Now that your 762 HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DAP762A10Desc,items,Ammo,New,Now that your 762 AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DDeagleR10Desc,items,Ammo,New,Now that your Desert Eagle Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+D500AM10Desc,items,Ammo,New,Now that your 500 Auto Max Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DBA10Desc,items,Ammo,New,Now that your BlunderBuss Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DSSA10Desc,items,Ammo,New,Now that your ShotGun Shell Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DSSlugA10Desc,items,Ammo,New,Now that your ShotGun Slug Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DSBreachSA10Desc,items,Ammo,New,Now that your ShotGun Breaching Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+DMC10Desc,items,Ammo,New,Now that your Molotov Cocktail Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+D45ACPR10Desc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+resourceBioFuel,,items,Item,Biotreibstoff,,,,,
+resourceBioFuelDesc,,items,Item,Biotreibstoff ist ein Gegenstand der durch Kochen von tierischem Fett oder Menschliche Scheisse in einem Becher am Lagerfeuer oder an einer Chemiestation hergestellt wird. Es wird zur Herstellung von Gasdosen verwendet. Es hat derzeit keinen Geruchsradius und kann daher ohne das Risiko Aufmerksamkeit zu erregen herumgetragen werden.,,,,,
+resourceTurd,,items,Item,Menschliche Scheisse,,,,,
+resourceTurdDesc,,items,Item,Menschliche Scheisse ist in Toiletten zu finden. Es kann Biotreibstoff daraus Hergestellt werden oder du kannst dies wie kleine Steine auf Feinde werfen es stinkt so sehr das Zombies und Feinde Umfallen. Achtung wirf es nie in deine unmittelbare nähe.,,,,,
+trapFireEmpty,blocks,Block,New,(Leere) Fire Trap,,
+trapFireDesc,blocks,Block,New,Diese Falle setzt alles in Brand was darüber läuft. Wenn es ausgeht kannst du es mit Benzin nachfüllen.,,
+trapAdhesive,blocks,Block,New,Adhesive Trap,,
+trapAdhesiveDesc,blocks,Block,New,Diese Falle verursacht keinen Schaden sondern verlangsamt jeden Feind der darüber läuft.,,
+trapShock,blocks,Block,New,Shocking Block,,
+trapShockDesc,blocks,Block,New,Schockt und verlangsamt alles was über die Oberfläche läuft und Schaden verursacht.,,
+trapGasCan,item,Items,New,Trap Gas Can,,
+trapGasCanDesc,item,Items,New,Verwende diesen um entleerte Brandschutzklötze wieder aufzufüllen.
+aufzugDesc,items,,,Ein Aufzug der dich nach oben bringt kann auch als Zombie Katapult benutzt werden
+ooltipJammed,UI,Menu,,,<{0}> Öffne {1} ([f30f0f]Blockiert[-]),
+tooltipLocked,UI,Menu,,,<{0}> Öffne {1} ([f30f0f]Verschlossen[-])
+tooltipUnlocked,UI,Menu,,,<{0}> Öffne {1} ([09d50e]Aufgeschlossen[-]),
+lootEntity,UI,Use Prompt,,,<{0}> [dfc90d]Durchsuche[-]{1},
+lootTooltipEmpty,UI,Use Prompt,,,[f30f0f]Leere[-] {1},
+lootTooltipNew,UI,Use Prompt,,,<{0}> [dfc90d]Durchsuche[-] {1} [09d50e](Ungeplündert)[-],
+lootTooltipTouched,UI,Use Prompt,,,<{0}> [dfc90d]Durchsuche[-] {1},
+useBlock,UI,Menu,,,<{0}> [09d50e]Verwende [-]{1},
+searchBlock,UI,Menu,,,<{0}> [dfc90d]Suche[-] {1},
+goLandClaimCountValue,UI,Menu,,,{0} Stck,{0} Stck,
+Key,Source,Context,Changes,English
+ATBerryTeaDesc,items,Food,New,Ein warmer Heiltee aus Heidelbeeren und Schneebeeren
+ATMixedTeaDesc,items,Food,New,Ein kühler erfrischender Kräutertee der vor Kälte schützt
+ATIcedCoffeeDesc,items,Food,New,Ein kühler mit Energie versorgender Eiskaffee der vor Kälte schützt und dabei genauso feuchtigkeitsspendend bleibt wie das heiße Gegenstück
+ATYuccaChipsDesc,items,Food,New,Eine Handvoll herzhafte Yucca-Chips mit Keilschnitt
+ATHashbrownDesc,items,Food,New,Ein kleines Dreieck der zerrissenen Bratkartoffel. Ein schöner Snack
+ATMashPotatoDesc,items,Food,New,Dieser kräftige Topf mit seidig glatter Kartoffelpüree könnte eine Mahlzeit für sich sein
+ATCornGritsDesc,items,Food,New,Ein warmer Topf mit gekochtem Maisgrieß mit tierischem Fett
+ATBlueberryJamDesc,items,Food,New,Süße Blaubeermarmelade gemacht von übertragenen Früchten. Vielleicht zu süß für sich
+ATYuccaJamDesc,items,Food,New,Überraschend pikant und trotzdem süß. Yuccamarmelade wird aus gerenderten Yucca-Früchten hergestellt
+ATEggSaladDesc,items,Food,New,Ein einfacher Eiersalat aus gekochten Eiern. Gekochte Kartoffel-Öl-Dressing
+ATFriedMeatDesc,items,Food,New,Fleisch das in einem Maismehlmantel gebraten wurde
+ATCornChipsDesc,items,Food,New,CRispy gebratene Mais-Chips die für einen schönen Snack zwischen den Schädeln in Bashing sorgen
+ATBBJamSandwichDesc,items,Food,New,Ein einfaches Maisbrotsandwich mit einer süßen Blaubeermarmeladenfüllung um sich von einem langen Tag zu erholen
+ATYuccaJamSandwichDesc,items,Food,New,Ein einfaches Maisbrot-Sandwich mit einer herzhaften Yucca-Marmeladen-Füllung die hilft selbst die stärksten Hungerattacken loszuwerden
+ATCoffeeCakeDesc,items,Food,New,Dieser Kuchen bietet die energetisierenden Eigenschaften von Kaffee und ist dennoch köstlich
+ATMushroomPieDesc,items,Food,New,Pikante und butterige Tortenkruste randvoll mit Pilzen gefüllt
+ATMeatAndBeerPieDesc,items,Food,New,Reichhaltige und herzhafte Tortenkruste mit Fleisch-Bier-Füllung. Wirklich ein Fest für die Besten der Besten
+ATFriedMushroomsDesc,items,Food,New,Ganze Champignons mit Maismehl überzogen und gebraten. Ein sehr füllender Snack
+ATFriedEggDesc,items,Food,New,Ein einfaches Spiegelei der Sonnenseite oben. Der Hauptbestandteil eines guten Frühstücks
+ATFrenchToastDesc,items,Food,New,Ei getränktes Maisbrot das gebraten worden ist. Einfach und doch lecker
+ATHoneyGlazedMeatDesc,items,Food,New,Gebratenes Fleisch mit einer tiefen Honigglasur
+ATBlueberrySodaDesc,items,Food,New,Eine erfrischende kohlensäurehaltige Limonade aus Heidelbeeren
+ATCarbonatedWaterDesc,items,Food,New,Kohlensäurehaltiges Wasser das sowohl erfrischend als auch nützlich für die Verdauung ist
+ATKvassSodaDesc,items,Food,New,Kwas-Soda aus fermentiertem Maisbrot damit es kohlensäurehaltig wird. Ein sehr einfaches Soda
+ATVodkaDesc,items,Food,New,Gegorenes und destilliertes Kartoffelwasser das deinen Tauschhandel verbessert. Dieses Zeug packt einen Schlag
+ATSnowberryGinDesc,items,Food,New,Ein trockener Gin aus Schneebeeren der das Brechen von Blöcken fördert
+ATBlueberrySpongeDesc,items,Food,New,Flauschiger Biskuitkuchen mit einer sehr süßen Heidelbeermarmeladenfüllung. Füllen für Körper und Seele.
+ATYuccaSpongeDesc,items,Food,New,Süßer und flauschiger Biskuitkuchen mit einer etwas herzhaften Yuccamarmeladenfüllung. Extrem sättigend
+ATCustardPieDesc,items,Food,New,Butterkuchenkruste randvoll gefüllt mit einer dichten Vanillesoße.
+ATEnergyTabletDesc,items,Food,New,Energietabletten eignen sich hervorragend um Sie aus schwierigen Situationen herauszuholen. Sie können jedoch süchtig nach ihnen werden.
+ATFudgeDesc,items,Food,New,Zuckerhaltiger Fudge der im Mund schmilzt und die Zähne verrottet. Du hast diese Backenzähne sowieso nicht gebraucht
+ATPopcornDesc,items,Food,New,Pop Corn - der Liebling der Kinobesucher. Ein Grundnahrungsmittel zwischen den Mahlzeiten
+ATRockCandyDesc,items,Food,New,Unaromatisierte Süßigkeiten die hauptsächlich aus Zucker hergestellt werden. Wird dir ganz schön den Zuckerschub geben
+ATRockCandyBlueberryDesc,items,Food,New,Kandiszucker mit Heidelbeergeschmack der gut schmeckt und Ihnen einen Zuckerschub verleiht
+ATRockCandySnowberryDesc,items,Food,New,Mit Schneebeeren angereicherte Kandiszucker die bei der Verdauung helfen und Ihnen einen Zuckerschub verleihen
+ATSpongeCakeDesc,items,Food,New,Dichter Biskuit mit Zuckerglasur darauf.
+ATSugarExtractDesc,items,Food,New,Man müsste ziemlich ungezwungen sein um Rohzucker zu essen. Wird in Soda Süßigkeiten und Kuchen verwendet
+ATSnowberryGinDrunkDesc,buffs,Buff,New,Ein starker Geschmack. Sie fühlen sich destruktiv.
+ATVodkaDrunkDesc,buffs,Buff,New,Das Zeug brennt. Sie fühlen sich gesprächiger
+ATSugarRushDesc,buffs,Buff,New,Ein leichter Rausch von der Menge Zucker die Sie gerade gegessen haben. Dadurch können Sie etwas schneller laufen
+ATSugarRushName,buffs,Buff,New,Zucker Rausch
+ATSugarRushTooltip,buffs,Buff,New,Das war viel Zucker
+ATEnergyTabletDesc,buffs,Buff,New,Du kannst schneller laufen. lade etwas schneller nach und werde weniger erschöpft
+ATEnergyTabletName,buffs,Buff,New,Energie Rausch
+ATEnergyTabletTooltip,buffs,Buff,New,Was für ein Rausch!
+ATColdDrinkName,buffs,Buff,New,Kaltes Getränk
+ATColdDrinkDesc,buffs,Buff,New,Gefrorene Getränke helfen dir in heißen Umgebungen besser zu überleben.
+Key,Source,Context,Changes,English
+HDPumpJackE,items,Block,KgNone,Messing Generator,
+HDPumpJackF,items,Block,KgNone,Messing Generator,
+HDPJEDesc,Block,,,Dieses Abbaumaschiene kann aus dem Boden verschiedene Erze Farmen wie Eisen Kupfer usw. und daraus Messing herstellen. 
+Key,Source,Context,UsedInMainMenu,NoTranslate,english,,,,,japanese,,,,,,,
+
+--------------------------Magisters Mansion Blocks ---------------------
+SieraNightstalkerCrouchIdle,blocks,Block,,,[2bd99f]Siera Nightstalker[-],
+SieraNightstalkerCrouchIdle2,blocks,Block,,,[2bd99f]Siera Nightstalker[-],
+SieraNightstalkerSittingIdle,blocks,Block,,,[2bd99f]Siera Nightstalker[-],
+SieraNightstalkerStandingIdle,blocks,Block,,,[2bd99f]Siera Nightstalker[-],
+SieraNightstalkerFallenIdle,blocks,Block,,,[2bd99f]Siera Nightstalker[-],
+SieraNightstalkerAttackReadyIdle,blocks,Block,,,[2bd99f]Siera Nightstalker[-],
+
+MansionDoorEntrance,blocks,Block,,,[2bd99f]Magisters Mansion || Eintreten nur Nachts empfohlen[-],
+MansionDoorAlwaysLocked,blocks,Block,,,[ed3119]Es ist komplett zugeklemmt.[-],
+MansionDoorB,blocks,Block,,,[2bd99f]Mansion Tür[-],
+MansionDoorC,blocks,Block,,,[2bd99f]Mansion Tür[-],
+MansionDoorD,blocks,Block,,,[2bd99f]Mansion Tür[-],
+MansionDoorE,blocks,Block,,,[ed3119]Notausgang[-],
+MansionDoorF,blocks,Block,,,[2bd99f]Mansion Tür[-],
+MansionDoorG,blocks,Block,,,[2bd99f]Mansion Tür[-],
+
+BoilerBodyYellow,blocks,Block,,,[2bd99f]Etwas zu zünden[-],
+LillianFire,blocks,Block,,,[2bc8d9]Ewiges Feuer[-],
+GiovaniReleased,blocks,Block,,,[2bc8d9]Giovani[-],
+
+GhostOrb,blocks,Block,,,[2bd99f]Geisterhafte Essenz[-],
+GhostOrb2,blocks,Block,,,[2bd99f]Geisterhafte Essenz[-],
+GhostOrb3,blocks,Block,,,[2bd99f]Geisterhafte Essenz[-],
+
+RewardOrb,blocks,Block,,,[2bd99f]Geisterhafte Essenz[-],
+RewardOrbDesc,blocks,Block,,,[2bd99f]Eine gereinigte Geistessenz. Belohnung für deine Hilfe beim endgültigen Ausruhen von Metzger, Bibliothekar und Heizkessel.[-],
+
+MansionHiddenPurse,blocks,Block,,,[2bd99f]Versteckte Geldbörse[-],
+MansionHiddenPurse2,blocks,Block,,,[2bd99f]Versteckte Geldbörse[-],
+MansionHiddenPurse3,blocks,Block,,,[2bd99f]Versteckte Geldbörse[-],
+
+BurialRites,blocks,Block,,,[2bd99f]Grab[-],
+BurialOrb,blocks,Block,,,[2bd99f]Grab[-],
+
+DinnerPlate,blocks,Block,,,[2bd99f]Füttere einen Geist[-],
+-------------------------Magisters Mansion Items---------------------
+MagistersMansionQuestStart,items,Item,,,"[e7a729]Magisters Mansion[-]",
+MagistersMansionQuestStartDesc,items,Item,,,"[e7a729]Folge [-][2bd99f]Siera Nightstalker[-][e7a729] durch die Villa um zu erfahren was an diesem Ort passiert ist.[-][1cb431]TIP: Empfehlung gehe nur Nachts rein.[-]",
+
+keyMagistersMansionEntrance,items,Item,,,"[e7a729]Eingangsschlüssel[-]",
+keyMagistersMansionEntranceDesc,items,Item,,,"[e7a729]Dieser Schlüssel wird verwendet, um Zugriff auf Magisters Mansion zu erhalten.[-]",
+keyMagistersMansionButcher,items,Item,,,"[e7a729]Metzgerschlüssel[-]",
+keyMagistersMansionButcherDesc,items,Item,,,"[e7a729]Ein Schlüssel, den der Metzger festhielt. Zu welcher Tür könnte es gehen?[-]",
+keyMagistersMansionLibrary,items,Item,,,"[e7a729]Bibliotheksschlüssel[-]",
+keyMagistersMansionLibraryDesc,items,Item,,,"[e7a729]Ein Schlüssel der nicht zu sehen ist. Der Bibliothekar würde dies nutzen um einen schnelleren Zugang zu [-][2bd99f]Giovanni's[-] [e7a729] raum.[-] zu erhalten",
+keyMagistersMansionBoiler,items,Item,,,"[e7a729]Kesselschlüssel[-]",
+keyMagistersMansionBoilerDesc,items,Item,,,"[e7a729]Ein Schlüssel der nicht zu sehen ist. Der Kessel war einer der härtesten Arbeiter der bei extremer Hitze arbeitete.",
+keyMagistersMansionBoiler2,items,Item,,,"[e7a729]Kessel-Notschlüssel[-]",
+keyMagistersMansionBoiler2Desc,items,Item,,,"[e7a729]Ein Schlüssel den der Kessel im Falle eines Brandes verstecken würde. Es war allerdings nicht sehr klug es auf den Kesseleinheiten zu verstecken ...[-]",
+keyMagistersMansionLillian,items,Item,,,"[e7a729]Wichtiger Schlüssel[-]",
+keyMagistersMansionLillianDesc,items,Item,,,"[e7a729]Ein sehr wichtiger Schlüssel. Es kann nur zu einer Tür gehen die etwas Besonderes verbirgt.[-]",
+keySieraLockpick,items,Item,,,"[e7a729]Siera's Lock Picking tool[-]",
+keySieraLockpickDesc,items,Item,,,"[e7a729]Sie heißt nicht umsonst Nightstalker. Sie ist eine Meisterin der Heimlichkeit.[-]",
+
+BoilerRoomFuel,items,Item,,,"[e7a729]Sieras spezielles Gebräu[-]",
+BoilerRoomFuelDesc,items,Item,,,"[e7a729]Ein tiefdunkles Geheimnis der Nightstalker-Familie. Früher haben sie damit massive Brände angezündet als sie Dörfer plünderten. Siera kennt die Kraft dieses Gebräus und geht sparsam damit um.[-]",
+
+GhostlyOrb,items,Item,,,"[e7a729]Metzger Essenz[-]",
+GhostlyOrbDesc,items,Item,,,"[e7a729]Eine von drei Essenzen die von denen verborgen wurden die Lillian bei den Morden halfen. Dies ist die Essenz des Metzgers.[-]",
+GhostlyOrb2,items,Item,,,"[e7a729]Die Essenz des Bibliothekars[-]",
+GhostlyOrb2Desc,items,Item,,,"[e7a729] Eine von drei Essenzen die von jenen verborgen wurden die [2bd99f] Lillian [-] [e7a729] bei den Morden halfen. Dies ist die Essenz des [2bd99f] Bibliothekars [-] [e7a729].[-]",
+GhostlyOrb3,items,Item,,,"[e7a729] Die Essenz des Kessels [-]",
+GhostlyOrb3Desc,items,Item,,,"[e7a729] Eine von drei Essenzen die von jenen verborgen wurden die [2bd99f] Lillian [-] [e7a729] bei den Morden halfen. Dies ist die Essenz des [2bd99f] Kessel[-] [e7a729]. [-]",
+GhostlyOrb4,items,Item,,,"[e7a729]Entschärfte Essenz[-]",
+GhostlyOrb4Desc,items,Item,,,"[e7a729]Die Kombination aller drei Essenzen entschärft sie und macht jede Kraft in ihnen zunichte. [-]",
+
+LillianEssence,items,Item,,,"[e7a729]Lillians Essenz[-]",
+LillianEssenceDesc,items,Item,,,"[2bd99f] Lillians [-] [e7a729] letzte Essenz. Es fühlt sich kalt an verbreitet aber auch Wärme in deinem Körper. [-]",
+
+apparelWhitesongPendant,items,Item,,,"[e7a729] Weißsanganhänger [-]",
+apparelWhitesongPendantDesc,items,Item,,,"[e7a729] Ein Familienerbstück das Ihnen von [-] [2bd99f] Giovani [-] [e7a729] geschenkt wurde weil er die Korruption aus seiner Villa entfernt hat. Wenn du dies trägst kann [-] [2bd99f] Giovani [-] [e7a729] dich stärken. \n\nDie Essenz von [-] [2bd99f] Giovani [-] [e7a729] umgibt dich mit Licht. \nAngriffe die nachts gemacht werden verursache [-] [2bd99f] Berührung von Giovani [-] [e7a729] und füge zusätzlichen Schaden zu. \n [-] [2bd99f] Giovanis [-] [e7a729] Stärke erhöht dein Bewegungstempo um 15% und deine maximale Gesundheit um 20%.  nachts.[-]",
+
+foodGhostPizza,items,Item,,,"[e7a729]Giovani's Pizza[-]",
+foodGhostPizzaDesc,items,Item,,,"[e7a729] Giovanis berühmtes Rezept. Eine köstlich fettige Pizza. [-]",
+foodGhostPizzaSchematic,items,Item,,,"[e7a729]Rezept: Giovani's Pizza[-]",
+foodGhostPizzaSchematicDesc,items,Item,,,"[e7a729]Schaltet Giovanis spezielles Pizza-Rezept frei.[-]",
+ 
+-----------------------Entities------------------------------
+zombieTheButcher,entityclasses,Entity,,,[ed3119]Der Metzger[-],,
+zombieTheLibrarian,entityclasses,Entity,,,[ed3119]Der Bibliothekar[-],,
+zombieTheBoiler,entityclasses,Entity,,,[ed3119]Der Kessel[-],,
+zombieLillian,entityclasses,Entity,,,[ed3119]Lillian[-],,
+
+lootLillian,entityclasses,Entity,,,[ed3119]Kaum brennendes Feuer[-],,
+lootTheButcher,entityclasses,Entity,,,[ed3119]Das Lieblingsgericht des Metzgers[-],,
+lootGhost,entityclasses,Entity,,,[ed3119]Spektrale Essenz[-],,
+
+------------------------Buffs-------------------------------
+buffCursedDebuffName,buffs,Buff,,,"[2bd99f]Verflucht[-]",,
+buffCursedDebuffDesc,buffs,Buff,,,"[2bd99f]Ein Geist hat dich verflucht! Deine Kontrollen sind umgekehrt.[-]",,
+buffCursedDebuffTooltip,buffs,Buff,,,"[2bd99f]Ein Geist hat dich verflucht.[-]",,
+
+buffHauntedMansionWarningName,buffs,Buff,,,"[2bd99f]Unbehagliches Gefühl[-]",,
+buffHauntedMansionWarningTooltip,buffs,Buff,,,"[2bd99f]Ein unbehagliches Gefühl kommt zu dir ..[-]",,
+buffHauntedMansionWarningDesc,buffs,Buff,,,"[2bd99f] Ein unbehagliches Gefühl kommt auf dich zu als du dich der Villa nähertest. Du hast das Gefühl dass jemand dich beobachtet ... Vielleicht möchtest du nachts zurückkommen um nicht so aufzufallen. [-] [1cb431] TIPP: Es wird empfohlen, diesen POI nachts zu betreten. [-]",,
+
+-----------------------Magisters Mansion Quests -----------------------
+MagistersMansionMainQuest,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.1 [-]",
+MagistersMansionMainQuest_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.1 [-]",
+MagistersMansionMainQuest_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.1 [-]",
+MagistersMansionMainQuest_offer,Quest,Challenge Info,,,"[e7a729] Hallo Reisender. Ich bin [-] [2bd99f] Siera Nightstalker [-] [e7a729]. Bist du gekommen um mir zu helfen diesen Angriff zu starten? Wir müssen diesen Ort infiltrieren und [-] [2bd99f] Lillian Whitesong [-] [e7a729] ein für alle Mal stoppen. Sie ist zu weit gegangen ... Du kennst die Geschichte nicht oder? Folge mir und ich erzähle es dir. [-] [1cb431] TIPP: Es wird empfohlen, diesen POI nachts zu machen. [-]",
+
+MagistersMansionMainQuest2,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.2 [-]",
+MagistersMansionMainQuest2_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.2 [-]",
+MagistersMansionMainQuest2_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.2 [-]",
+MagistersMansionMainQuest2_offer,Quest,Challenge Info,,,"[e7a729] Großartig. Danke dass du mir geholfen hast. Dies ... ist [-] [2bd99f] Herrenhaus [-] [e7a729]. Wie die Geschichte erzählt war dies das Haus des reichen und intelligenten [-] [2bd99f] Giovani Whitesong [-] [e7a729]. Er war ein sehr erfolgreicher Mann und wurde von der Gemeinde sehr geliebt. Er heiratete eine Frau namens [-] [2bd99f] Lillian [-] [e7a729]. Sie schien gelinde gesagt seltsam. Eines Tages während eines Treffens von Freunden stößt sie ihm am helllichten Tag ein Messer durch das Herz. Dann drehte sie den Gästen das Messer auf. Sie hat in dieser Nacht so viele Menschen ermordet. Schließlich drehte sie es auf sich. Jetzt verfolgt sie dieses Herrenhaus und tötet jeden der es wagt einzutreten ... Wenn du bereit bist verwende eine [-] [1cb431] Steinaxt [-] [e7a729] und diesen Schlüssel um die Eingangstür zu entriegeln. [-] [1cb431] Wenn für eine Quest ein Upgrade-Ziel erforderlich ist benutze eine Steinaxt mit den erforderlichen Gegenständen. Alle Spezialblöcke für die ein Upgrade erforderlich ist bestehen aus Holz damit sie leicht repariert werden können wenn sie von einer Streukugel oder einem Feind getroffen werden. [-]",
+
+MagistersMansionMainQuest3,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.3 [-]",
+MagistersMansionMainQuest3_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.3 [-]",
+MagistersMansionMainQuest3_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.3 [-]",
+MagistersMansionMainQuest3_offer,Quest,Challenge Info,,,"[e7a729] Wir sind dabei. Achte darauf geduckt zu bleiben. Die Geister in diesem Ort sind nicht mehr freundlich. Vielleicht möchtest du ein Schlafsack in der Nähe platzieren falls etwas schief geht. Nun ... wo war ich ... Ah ja. [-] [2bd99f] Lillians [-] [e7a729] Handlungen waren jedoch nicht nur ihre. Sie hatte Hilfe und ich weiß es. Sie war sehr nah an den Herrenhäusern [-] [ed3119] Metzger [-] [e7a729]. Ich wette wir werden mit seinem Geist Hinweise finden. Gehen wir in diese Richtung. Ich werde mich durchschleichen und die Tür zum [-] [1cb431] Dinnersaal [-] [e7a729] aufschließen. Gleich nach dem Speisesaal führt eine Treppe in die Metzgerei. Treffen Sie mich dort und wir werden diesen Kerl zusammen angehen. [-]",
+
+MagistersMansionMainQuest4,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.4 [-]",
+MagistersMansionMainQuest4_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.4 [-]",
+MagistersMansionMainQuest4_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.4 [-]",
+MagistersMansionMainQuest4_offer,Quest,Challenge Info,,,"[db6619] * Du hörst [-] [2bd99f] Siera [-] [db6619] schmerzverzerrt hinter der Theke * [-] [e7a729] AHH! Autsch! Er hat mich fertig gemacht nicht wahr? Ich bin auf der Treppe gestolpert die hochkommt. Sobald er mich fallen hörte wusste ich dass es schlimm werden würde. Na ja ... Zumindest war ich kein Geisterfutter. Hast du mir einen Verband übrig[-] [1cb431] [-] [e7a729] den du mir leihen kannst? [-]",
+
+MagistersMansionMainQuest5,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.5 [-]",
+MagistersMansionMainQuest5_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.5 [-]",
+MagistersMansionMainQuest5_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.5 [-]",
+MagistersMansionMainQuest5_offer,Quest,Challenge Info,,,"[e7a729] Danke. Viel besser. Der [-] [ed3119] Metzger [-] [e7a729] hatte also wirklich etwas zu verbergen. Ich habe es von seinem Gürtel genommen als er mich herumwarf. [-] [db6619] * [-] [2bd99f] Siera [-] [db6619] zieht einen Schlüssel aus ihrer Tasche * [-] [e7a729] Dieser Schlüssel muss gehen in einen anderen Raum im Haus. Finde es und schalte es frei. Wir sehen uns gleich dort. Ich muss mich nur ausruhen. [-]",
+
+MagistersMansionMainQuest6,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.6 [-]",
+MagistersMansionMainQuest6_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.6 [-]",
+MagistersMansionMainQuest6_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.6 [-]",
+MagistersMansionMainQuest6_offer,Quest,Challenge Info,,,"[e7a729] Villen haben normalerweise eine eigene Bibliothek. Normalerweise stellen sie ein paar Leute ein um den Ort zu pflegen und zu organisieren. [-] [2bd99f] Giovani [-] [e7a729] war ein so großer Mann dass er anderen erlaubte in der Villa zu leben solange sie dort arbeiteten. Das ist der Grund warum die [-] [ed3119] Metzger [-] [e7a729] und [-] [2bd99f] Lillian [-] [e7a729] so nahe waren. Armer [-] [2bd99f] Giovani [-] [e7a729]. Er hatte die ganze Zeit keine Ahnung ... Die ganze Zeit über gab es eine Verschwörung gegen ihn. Ich habe keine Informationen über den Bibliothekar [-] [ed3119] [-] [e7a729]. Es ist sehr wahrscheinlich dass das ganze Haus gegen den Mann war. Eifersucht kann jeden in eine Maschine verwandeln. Lass [-] [1cb431] nach Informationen [-] [e7a729] über diesen Bibliothekar suchen. [-]",
+
+MagistersMansionMainQuest7,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.7 [-]",
+MagistersMansionMainQuest7_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.7 [-]",
+MagistersMansionMainQuest7_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.7 [-]",
+MagistersMansionMainQuest7_offer,Quest,Challenge Info,,,"[e7a729] Wow. Ich gebe es ihm das ist ein großartiger Ort um etwas zu verbergen wenn du vor allen Leuten verstecken möchtest. Ich frage mich wie viele andere Geheimnisse es in diesem Ort gibt ... Es sieht so aus als würde dieser Schlüssel zu dieser Tür in meiner Nähe gehen. Muss ein Geheimgang sein auf den niemand außer dem Bibliothekar [-] [ed3119] [-] [e7a729] zugreifen kann. Mal sehen was dahinter steckt. [-]",
+
+MagistersMansionMainQuest8,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.8 [-]",
+MagistersMansionMainQuest8_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.8 [-]",
+MagistersMansionMainQuest8_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.8 [-]",
+MagistersMansionMainQuest8_offer,Quest,Challenge Info,,,"[db6619]*[-][2bd99f]Siera's[-][db6619] Gesicht ist weiß vor Schock als sie neben einer Leichensack sitzt * [-] [e7a729] Schau dir das an ... Diese Leichen sind neu. Das ist viel zu weit gegangen. Wie kann jemand so grausam sein nur immer und immer wieder zu morden ... Wir müssen das beenden. Wir müssen [-] [2bd99f] Lillian [-] [e7a729] herausnehmen. Schau dich in diesem Raum um. Irgendwo muss es einen anderen Schlüssel geben. Lass mich einfach hier sitzen und diese beiden Körper in die Geisterwelt schicken ... [-]",
+
+MagistersMansionMainQuest9,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.9 [-]",
+MagistersMansionMainQuest9_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.9 [-]",
+MagistersMansionMainQuest9_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.9 [-]",
+MagistersMansionMainQuest9_offer,Quest,Challenge Info,,,"[e7a729] Hmm ... Ein Heizraumschlüssel. In Kesselräumen werden die schmutzigsten und schweißtreibendsten Arbeiten ausgeführt. Ich bin mir nicht sicher ob [-] [2bd99f] Lillian [-] [e7a729] mit den Kesselarbeitern bekannt war. Dem [-] [ed3119] Bibliothekar [-] [e7a729] nach zu urteilen der ein Teil davon ist habe ich kaum Zweifel dass wir bald einen weiteren Kampf haben werden. Ich bin fast fertig damit diese Leichen loszuschicken ... Geh und finde den Heizungskeller und räum die Geister aus. Ich werde bald aufholen. [-]",
+
+MagistersMansionMainQuest10,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.10 [-]",
+MagistersMansionMainQuest10_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.10 [-]",
+MagistersMansionMainQuest10_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.10 [-]",
+MagistersMansionMainQuest10_offer,Quest,Challenge Info,,,"[db6619] * [-] [2bd99f] Siera [-] [db6619] eilt hinter dich und setzt sich vor einen Leichensack * [-] [e7a729] Mehr Leichen ... Mehr Absendungen ... Zum Glück dass die Kessel seit Ewigkeiten nicht mehr benutzt worden. Es ist hier nicht ganz zu heiß. Aber es ist sehr dunkel. Wir müssen [-] [1cb431] etwas zum Anzünden finden [-] [e7a729], damit ich die Sendungen erledigen kann. Hier. Verwende etwas von diesem Gebräu. Es ist ein Familienerbstück-Rezept das seit Jahrhunderten weitergegeben wird. Füge einfach ein wenig Streu hinzu damit es Nacht wird. Füge nicht zu viel hinzu. Es ist sehr sehr stark. [-]",
+
+MagistersMansionMainQuest11,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.11 [-]",
+MagistersMansionMainQuest11_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.11 [-]",
+MagistersMansionMainQuest11_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.11 [-]",
+MagistersMansionMainQuest11_offer,Quest,Challenge Info,,,"[db6619] * Licht explodiert aus dem Feuer das du auf dem Leichensack erzeugt hast. [-] [2bd99f] Siera [-] [db6619] schaut dich mit absolutem Entsetzen an. * [-] [e7a729] WAS HAST DU GEMACHT!?! VON ALLEN DINGEN DIE EIN FEUER MACHEN KÖNNEN ZÜNDEST DU EIN KÖRPER AN?!?!? OH THE SMELL !!! [-] [db6619] * [-] [2bd99f] Siera [-] [db6619] versucht verzweifelt das Feuer zu löschen * [-] [e7a729] Das wird nicht funktionieren. Wir müssen einen Weg finden um diese Nottür JETZT zu öffnen! [-]",
+
+MagistersMansionMainQuest12,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.12 [-]",
+MagistersMansionMainQuest12_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.12 [-]",
+MagistersMansionMainQuest12_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.12 [-]",
+MagistersMansionMainQuest12_offer,Quest,Challenge Info,,,"[e7a729] Was für ein großartiger Ort um einen Notausgangschlüssel zu verstecken ... Ok. Keine Zeit sarkastisch zu sein. Lass uns hier verschwinden bevor es schlimm wird. Benutze den Schlüssel schnell !! [-]",
+
+MagistersMansionMainQuest13,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.13 [-]",
+MagistersMansionMainQuest13_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.13 [-]",
+MagistersMansionMainQuest13_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.13 [-]",
+MagistersMansionMainQuest13_offer,Quest,Challenge Info,,,"[e7a729] Zum Glück funktioniert diese Tür. Das wäre kein guter Tod ... Folgen wir diesem Korridor. Sei aber vorsichtig. Das Feuer könnte sich hier schnell ausbreiten. [-]",
+
+MagistersMansionMainQuest14,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.14 [-]",
+MagistersMansionMainQuest14_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.14 [-]",
+MagistersMansionMainQuest14_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.14 [-]",
+MagistersMansionMainQuest14_offer,Quest,Challenge Info,,,"[db6619] * [-] [2bd99f] Siera [-] [db6619] rast an dir vorbei schnell aber leise. * [-] [e7a729] Das war zu nahe. Diese Feuer breiteten sich so schnell aus. Dieser ganze Ort brennt! Aber wir haben noch andere Probleme ... Schau mal! Es ist der [-] [ed3119] Kesselbetreiber [-] [e7a729]. Wir müssen ihn rausholen. Sei nur [-] [1cb431] vorsichtig wenn du [-] [e7a729] trittst! Diese Feuer heizen wahrscheinlich diesen Boden auf während wir sprechen. Nimm ihn schnell raus! [-]",
+
+MagistersMansionMainQuest15,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.15 [-]",
+MagistersMansionMainQuest15_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.15 [-]",
+MagistersMansionMainQuest15_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.15 [-]",
+MagistersMansionMainQuest15_offer,Quest,Challenge Info,,,"[e7a729]He's down. But it's not over. We need to get out of this room.  The [-][1cb431]door next to me[-][e7a729] doesn't seem too strong. I bet we could lock pick that one. Here use this lock pick.[-]",
+
+MagistersMansionMainQuest16,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.16 [-]",
+MagistersMansionMainQuest16_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.16 [-]",
+MagistersMansionMainQuest16_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.16 [-]",
+MagistersMansionMainQuest16_offer,Quest,Challenge Info,,,"[db6619] * [-] [2bd99f] Siera [-] [db6619] klopft dir auf den Rücken. * [-] [e7a729] Du hast es heute gut gemacht ... Wenn wir es lebend schaffen werde ich dich sehr gut belohnen ... Sieh dir das an. Der Kesselfahrer [-] [ed3119] [-] [e7a729] hielt an dieser Taste fest. Es sieht anders aus als die anderen. Es sieht so aus als würde es zu einer wichtigen Tür gehen ... Möglicherweise zu einer die [-] [2bd99f] Lillian [-] [e7a729] sicher und aus dem Weg von Eindringlingen wie uns hält ... Wir müssen diese Tür finden. Mach dir keine Sorgen. Diese Wand ist eine [-] [1cb431] falsche Wand [-] [e7a729]. Hack es einfach mit einer Axt runter. [-]",
+
+MagistersMansionMainQuest17,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.17 [-]",
+MagistersMansionMainQuest17_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.17 [-]",
+MagistersMansionMainQuest17_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.17 [-]",
+MagistersMansionMainQuest17_offer,Quest,Challenge Info,,,"[db6619] * [-] [2bd99f] Siera [-] [db6619] atmet erleichtert auf * [-] [e7a729] Ich weiß dass wir viel durchgemacht haben. Aber wir sind jetzt hier. Sie ist einfach da. Ich weiß es. Das Feuer ist zu bedrohlich. Bitte Freund ... Zerstöre diese böse Hexe ein für alle Mal. Sei aber vorsichtig. Sie ist trotz ihres winzigen Aussehens sehr stark. Dies wird kein leichter Kampf. [-] [1cb431] Schritt vorwärts [-] [e7a729] wenn du bereit bist ... Und viel Glück. [-]",
+
+MagistersMansionMainQuest18,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.18 [-]",
+MagistersMansionMainQuest18_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.18 [-]",
+MagistersMansionMainQuest18_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.18 [-]",
+MagistersMansionMainQuest18_offer,Quest,Challenge Info,,,"[db6619] * Als [-] [2bd99f] Lillian [-] [db6619] fällt [-] [2bd99f] schreit Siera [-] [db6619] leidenschaftlich nach dem Sieg. * [-] [e7a729] Endlich! Es ist vorbei. Mein Lebenstraum diese böse Frau zu töten ist endlich wahr geworden. Sie kann nicht mehr morden. [-] [db6619] * [-] [2bd99f] Siera [-] [db6619] geht zum Körper hinüber. * [-] [e7a729] Ihr Wesen lebt noch. Gerade so. Du musst den Job beenden. [-] [1cb431] Nimm ihre Essenz auf [-] [e7a729]. Wir werden es komplett zerstören. [-]",
+
+MagistersMansionMainQuest19,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.19 [-]",
+MagistersMansionMainQuest19_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.19 [-]",
+MagistersMansionMainQuest19_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.19 [-]",
+MagistersMansionMainQuest19_offer,Quest,Challenge Info,,,"[db6619] * Die Essenz fühlt sich kalt an wärmt aber gleichzeitig deine Hände. Di spürst eine Welle von Macht während du sie an deinen Körper drückst. * [-] [e7a729] Ich habe mein ganzes Leben damit verbracht diesen Moment zu verfolgen. Es hat meine Seele verzehrt. Ich habe meine Familie meinen Mann meine Freunde ... alles zurückgelassen. Nur für diesen Moment. Zu wissen dass es endlich vorbei ist ist eine große Erleichterung für mich ... Aber ich kann es nicht tun. Du musst ihr Wesen zerstören. [-] [1cb431] Verbrenne es dort drüben im Feuer. [-]",
+
+MagistersMansionMainQuest20,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.20 [-]",
+MagistersMansionMainQuest20_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.20 [-]",
+MagistersMansionMainQuest20_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.20 [-]",
+MagistersMansionMainQuest20_offer,Quest,Challenge Info,,,"[db6619] * Das [-] [2bd99f] Ewige Feuer [-] [db6619] explodiert aus der konzentrierten Essenz. Eine Zahl erscheint als der Rauch aufklart. Es geht an [-] [2bd99f] Siera [-] [db6619]. * [-] [e7a729] Du hast es geschafft Kind. Mit der Hilfe dieses Reisenden hast du es geschafft. [-] [db6619] * Die Figur dreht sich zu Ihnen um. * [-] [e7a729] Ich bin [-] [1cb431] Giovani [-] [ e7a729]. Ich bin dir sehr dankbar dass du den Hass von diesem Herrenhaus befreit hast. Ich weiß dass es nicht einfach war. [-] [db6619] * [-] [2bd99f] Siera [-] [db6619] spricht mit Tränen in den Augen. * [-] [e7a729] VATER! Oh Vater es tut mir so leid! Ich war jung. Ich wusste nicht was Mutter tat! [-] [db6619] * [-] [2bd99f] Giovani [-] [db6619] wendet sich an [-] [2bd99f] Siera [-] [db6619]. * [-] [ e7a729] Unsinn Tochter. Beschuldige dich nicht dafür. Deine Mutter obwohl ich sie bis zum Tod geliebt habe wurde durch das reine Böse korrumpiert. Ihre Handlungen sind ihre eigenen und diejenigen die sie unterstützt haben. Nicht deins. Jetzt steh auf. [-] [db6619] * [-] [2bd99f] Giovani [-] [db6619] sieht dich noch einmal an. * [-] [e7a729] Reisender danke. Bitte nehme dies als [-] [1cb431] Zeichen [-] [e7a729] meiner Wertschätzung. [-] [db6619] * [-] [2bd99f] Giovani [-] [db6619] streckt die Hände aus und deutet auf komm zu ihm. * [-]",
+
+MagistersMansionMainQuest21,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.21 [-]",
+MagistersMansionMainQuest21_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.21 [-]",
+MagistersMansionMainQuest21_offer_title,Quest,Challenge Info,,,"[e7a729]Magisters Mansion Pt.21 [-]",
+MagistersMansionMainQuest21_offer,Quest,Challenge Info,,,"[db6619] * Wenn du den Anhänger [-] [1cb431] [-] [db6619] nimmst, verschwindet [-] [2bd99f] Giovanis [-] [db6619] Geist aus dem Blickfeld. [-] [2bd99f] Siera [-] [db6619] sieht dich erleichtert an. * [-] [e7a729] Danke Freund. Deine Handlungen werden niemals vergessen genau wie meine Erinnerungen an meinen Vater. Er ist auch dankbar. Du hast seiner Qual meiner Mutter ein Ende gesetzt ... Pass auf den [-] [1cb431] Anhänger [-] [db6619] auf. Mach weiter und zieh es an ... [-] [db6619] * [-] [2bd99f] Siera [-] [db6619] verbeugt sich anerkennend vor dir und winkt dann zum Abschied. * [-] [e7a729] Bis zum nächsten Mal Freund. Bleib sicher.[-]",
+
+--------------------------Achievements------------------------------
+MagistersMansionEssenceQuest,Quest,Challenge Info,,,"[e7a729]Nebenquest: Bestattungsriten [-]",
+MagistersMansionEssenceQuest_title,Quest,Challenge Info,,,"[e7a729]Nebenquest: Bestattungsriten [-]",
+MagistersMansionEssenceQuest_offer_title,Quest,Challenge Info,,,"[e7a729]Nebenquest: Bestattungsriten[-]",
+MagistersMansionEssenceQuest_offer,Quest,Challenge Info,,,"[e7a729]Finde heraus wo die Komplizen ihre Essenz versteckt haben und finde einen Weg sie zu begraben. [-]",
+
+MagistersMansionFoodQuest,Quest,Challenge Info,,,"[e7a729]Neben Quest: Pizza Party [-]",
+MagistersMansionFoodQuest_title,Quest,Challenge Info,,,"[e7a729]Neben Quest: Pizza Party [-]",
+MagistersMansionFoodQuest_offer_title,Quest,Challenge Info,,,"[e7a729]Neben Quest: Pizza Party[-]",
+MagistersMansionFoodQuest_offer,Quest,Challenge Info,,,"[e7a729]Diese armen Seelen haben ewig auf das Abendessen gewartet. Sie könnten wahrscheinlich ein bisschen Futter für die Fütterung sparen oder?[-]",
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+Killer Hase,entityclasses,Entity,,,Killer Hase
+Killer Huhn,entityclasses,Entity,,,Killer Huhn
+killerhasefleisch,items,Food,,,Fleisch vom Killer Hase
+killerhasefleischhDesc,items,Food,,,Sehr sehr sehr hohe Wahrscheinlichkeit einer Lebensmittelvergiftung. \n \n Du müsstest ziemlich dumm sein um dies zu essen.,
+Miniatombombe,items,Gun,,,Heilige Mini Atombombe
+MiniatombombeDesc,items,Gun,,,"Segne dies o Herr damit du deine Feinde in deiner Barmherzigkeit in winzige Stücke schlägst"

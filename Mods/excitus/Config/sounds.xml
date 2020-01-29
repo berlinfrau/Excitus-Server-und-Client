@@ -1,0 +1,316 @@
+<configs>
+
+	<set xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']/MaxRepeatRate/@value">10</set>
+	<set xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']/Noise[@ID='0']/@noise">10</set>
+
+	<append xpath="/Sounds">
+
+			<SoundDataNode name="MD500_start"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+				<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+				<AudioClip ClipName="#@modfolder:Resources/MD500sounds.unity3d?heli_start"/>
+				<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+			<SoundDataNode name="MD500_stop"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+				<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+				<AudioClip ClipName="#@modfolder:Resources/MD500sounds.unity3d?heli_stop"/>
+				<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+
+			<SoundDataNode name="MD500_flying"> <AudioSource name="Sounds/AudioSource_Vehicle"/>
+				<AudioClip ClipName="#@modfolder:Resources/MD500sounds.unity3d?heli_flying" Loop="true"/>
+				<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0.01"/> </SoundDataNode>
+				
+	</append>
+	<append xpath="/Sounds">
+
+<SoundDataNode name="silencea"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="5" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silencea"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence1"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="1" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence1"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence2"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="1" time="3" heat_map_strength="0.005" heat_map_time="30"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence2"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence3"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="1" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence3"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>	
+	
+<SoundDataNode name="silence4"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="10" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence4"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence5"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="10" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence5"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+<SoundDataNode name="silence6"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="2" volume="10" time="3" heat_map_strength="0.005" heat_map_time="5"/>
+		<AudioClip ClipName="#@modfolder:Resources/Silence.unity3d?silence6"/>
+		<LocalCrouchVolumeScale value="0.75"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="0.2"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+
+	<SoundDataNode name="dbfire"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="80" volume="200" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?dbfire"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="shotgunshell"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?shotgunempty"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="spazfire"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="80" volume="200" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?spazfire"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="spazreload"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?spazreload"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="spazpump"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.3" heat_map_time="120"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?spazpump"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+
+	<SoundDataNode name="ting"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="1" range="5" volume="5" time="3" heat_map_strength="0.005" heat_map_time="300"/>
+		<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?ting"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="chaingunend"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.5" heat_map_time="300"/>
+			<AudioClip ClipName="#@modfolder:Resources/Extra.unity3d?chaingunend"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="chaingunfire"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="300"/>
+			<AudioClip ClipName="#@modfolder:Resources/Fire.unity3d?chaingunfire"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	</append>
+	<append xpath="/Sounds">
+
+<SoundDataNode name="khelldonBikeBell"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/khelldon-GetHornyAudio.unity3d?bicycleHorn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> 
+</SoundDataNode>
+
+<SoundDataNode name="khelldonMinibikeHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/khelldon-GetHornyAudio.unity3d?minibikeHorn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> 
+</SoundDataNode>
+
+<SoundDataNode name="khelldonMotorcycleHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/khelldon-GetHornyAudio.unity3d?motorcycleHorn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> 
+</SoundDataNode>
+
+<SoundDataNode name="khelldonTruckHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/khelldon-GetHornyAudio.unity3d?truckHorn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> 
+</SoundDataNode>
+
+<SoundDataNode name="khelldonGyrocopterHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/khelldon-GetHornyAudio.unity3d?gyrocopterHorn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="0.01"/> 
+</SoundDataNode>
+</append>
+	<append xpath="/Sounds">
+		<SoundDataNode name="carAlarm">
+			<AudioSource name="Sounds/AudioSource_UseAction" />
+			<Noise range="50" prio="1" time="1" muffled_when_crouched="1.0" />
+			<AudioClip ClipName="#@modfolder:Resources/DCMCarAlarms.unity3d?alarm1" />
+			<AudioClip ClipName="#@modfolder:Resources/DCMCarAlarms.unity3d?alarm2" />
+			<AudioClip ClipName="#@modfolder:Resources/DCMCarAlarms.unity3d?alarm3" />
+			<LocalCrouchVolumeScale name="1.0" />
+			<CrouchNoiseScale name="1.0" />
+			<NoiseScale name="1" />
+			<MaxVoices name="1" />
+			<MaxEntities name="30" />
+			<MaxRepeatRate name="0.01" />
+		</SoundDataNode>
+<set xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']/MaxRepeatRate/@value">10</set>
+<set xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']/Noise[@ID='3']/@volume">10</set>
+	</append>
+	<append xpath="/Sounds">
+<SoundDataNode name="LillianLifeTap"> <AudioSource name="Sounds/AudioSource_Screamer"/>
+	<AudioClip ClipName="#@modfolder:Resources/MagistersMansion.unity3d?LillianSyphon"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="10"/>
+  <LowestPitch name="0.95"/>
+  <HighestPitch name="1.05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value=".1"/> </SoundDataNode>
+<SoundDataNode name="LillianGhostStrike"> <AudioSource name="Sounds/AudioSource_Screamer"/>
+	<AudioClip ClipName="#@modfolder:Resources/MagistersMansion.unity3d?LillianGhostStrike"/>
+	<Channel name="Mouth"/>
+	<Priority name="3"/>
+	<maxVoicesPerEntity value="10"/>
+  <LowestPitch name="0.95"/>
+  <HighestPitch name="1.05"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value=".1"/> </SoundDataNode>
+</append>
+<append xpath="/Sounds">
+  <SoundDataNode name="khelldonHeavenVoice">
+    <AudioSource name="Sounds/AudioSource_Interact"/>
+  	<AudioClip ClipName="#@modfolder:Resources/doughs-khelldonHolyHandGrenadeAudio.unity3d?khelldonHolyHandGrenade"/>
+  	<LocalCrouchVolumeScale name="1.0"/>
+    <CrouchNoiseScale name="0.5"/>
+    <NoiseScale name="1"/>
+    <MaxVoices name="3"/>
+    <MaxRepeatRate name="0.01"/>
+  </SoundDataNode>
+</append>
+  <append xpath="/Sounds">
+    <SoundDataNode name="GoatBell">
+      <AudioSource name="Sounds/AudioSource_Creatures"/>
+      <Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5" heat_map_strength="0.05" heat_map_time="60" />
+      <AudioClip ClipName="#@modfolder:Resources/GoatSounds.unity3d?Bell" />
+      <LocalCrouchVolumeScale value="1.0"/>
+      <CrouchNoiseScale value="0.5"/>
+      <NoiseScale value="1"/>
+      <MaxVoices value="10"/>
+      <MaxRepeatRate value="0.9"/>
+    </SoundDataNode>
+    <SoundDataNode name="GoatBaah">
+      <AudioSource name="Sounds/AudioSource_Creatures"/>
+      <Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5" heat_map_strength="0.05" heat_map_time="60" />
+      <AudioClip ClipName="#@modfolder:Resources/GoatSounds.unity3d?Baah" />
+      <LocalCrouchVolumeScale value="1.0"/>
+      <CrouchNoiseScale value="0.5"/>
+      <NoiseScale value="1"/>
+      <MaxVoices value="10"/>
+      <MaxRepeatRate value="0.9"/>
+    </SoundDataNode>
+    <SoundDataNode name="GoatBleat">
+      <AudioSource name="Sounds/AudioSource_Creatures"/>
+      <Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5" heat_map_strength="0.05" heat_map_time="60" />
+      <AudioClip ClipName="#@modfolder:Resources/GoatSounds.unity3d?Bleat" />
+      <LocalCrouchVolumeScale value="1.0"/>
+      <CrouchNoiseScale value="0.5"/>
+      <NoiseScale value="1"/>
+      <MaxVoices value="10"/>
+      <MaxRepeatRate value="0.9"/>
+    </SoundDataNode>
+   </append>
+</configs>

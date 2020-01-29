@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/blockplaceholders">
+
+    <placeholder name="plantedCannabisHarvestRandomHelper">
+      <block name="plantedCannabis3Harvest" prob="0.086" randomrotation="true"/>
+      <block name="air" prob="0.1"/>
+      <block name="treeSnowyGrassDiagonal" prob="0.431" biome="snow" randomrotation="true"/>
+      <block name="treeTallGrassDiagonal" prob="0.431" biome="pine_forest" randomrotation="true"/>
+      <block name="treeBrownGrassDiagonal" prob="0.431" biome="desert" randomrotation="true"/>
+      <block name="treeBrownGrassDiagonal" prob="0.431" biome="water" randomrotation="true"/>
+      <block name="treeBrownGrassDiagonal" prob="0.431" biome="wasteland" randomrotation="true"/>
+      <block name="treeBrownGrassDiagonal" prob="0.431" biome="burnt_forest" randomrotation="true"/>
+    </placeholder>
+
+  </append>
+<set xpath="/blockplaceholders/*/block[@name='cntCabinetOldBottom']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCabinetOldBottomOpen']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCharcoalGrillClosed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCharcoalGrillOpen']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCoolerClosed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCoolerOpen']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCupboardCabinetOldTopClosed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCupboardCabinetOldTopOpen']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCupboardCabinetRedTopClosed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntCupboardCabinetRedTopOpen']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntGasGrillClosed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntGasGrillOpen']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntMicrowaveOvenVer1Closed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntMicrowaveOvenVer1Open']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntRetroFridgeVer1Closed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntRetroFridgeVer2Open']/@prob">0.3</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntStoveOldVer1Closed']/@prob">0.7</set>
+	<set xpath="/blockplaceholders/*/block[@name='cntStoveOldVer2Open']/@prob">0.3</set>
+	
+	<append xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
+		<block name="vehSedan01" prob="0.1"/>
+		<block name="vehSedanExtra01" prob="0.1"/>
+		<block name="vehHatchBack" prob="0.1"/>
+		<block name="vehJeep02" prob="0.1"/>
+		<block name="vehOldTrailer" prob="0.1"/>
+		<block name="vehHatchBackWrecked01" prob="0.1"/>
+		<block name="vehClassicCar01" prob="0.1"/>
+		<block name="vehClassicCar03" prob="0.1"/>
+		<block name="vehOldMinivan" prob="0.1"/>
+		<block name="vehPoliceCar01" prob="0.1"/>
+		<block name="vehHelicopter03" prob="0.1"/>
+		<block name="vehTruckFuel" prob="0.1"/>
+		<block name="vehMailTrucksOld" prob="0.1"/>
+		<block name="vehMotorbikeDown" prob="0.01"/>
+		<block name="vehMotorbikeUpStandDown" prob="0.01"/>
+		<block name="vehHarleyDown" prob="0.01"/>
+		<block name="vehHarleyUp" prob="0.01"/>
+		<block name="vehRustyOldTruck" prob="0.1"/>
+		<block name="vehTaxiCar02" prob="0.1"/>
+		<block name="vehPickUp01" prob="0.1"/>
+		<block name="vehPickUp02" prob="0.1"/>
+		<block name="vehPickUp03" prob="0.1"/>
+		<block name="vehPickUp04" prob="0.1"/>
+		<block name="vehExtendedCab01" prob="0.1"/>
+		<block name="vehExtendedCab02" prob="0.1"/>
+		<block name="vehExtendedCab03" prob="0.1"/>
+		<block name="vehBronco01" prob="0.1"/>
+		<block name="vehBronco02" prob="0.1"/>
+		<block name="vehZombieTruck" prob="0.1"/>
+		<block name="vehTrolley" prob="0.1"/>	
+	</append>
+	
+</configs>
