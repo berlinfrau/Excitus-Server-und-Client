@@ -5,14 +5,14 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">classKey, classSelection ,keystoneBlock</set>
 <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">45</set>
 <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">105</set>
-<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">120</set>
+<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">240</set>
 <append xpath="/entity_classes/entity_class[@name='animalTemplateTimid']">
 	<property name="Buffs" value="DamageDisplayBuff" />
 </append>
 <append xpath="/entity_classes/entity_class[@name='animalTemplateHostile']">
 	<property name="Buffs" value="DamageDisplayBuff" />
 </append>
-	 <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">120</set>
+	 <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">240</set>
 	<append xpath="/entity_classes/entity_class[contains(@name,'legendary')]">
 	<property name="LootListOnDeath" value="1004"/>
 	</append>
@@ -161,7 +161,7 @@
 	<property name="LootListOnDeath" value="1012"/>
 	</append>
 
-		<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">120</set>
+		<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">240</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">350</set>
 
 	<append xpath="/entity_classes/entity_class[contains(@name, 'zombie')]">
@@ -1420,7 +1420,7 @@
             <property name="AvatarController" value="AvatarZombieUMAController" />
             <property name="PhysicsBody" value="zombieUMA" />
             <property name="HasDeathAnim" value="false" />
-            <property name="TimeStayAfterDeath" value="120" />
+            <property name="TimeStayAfterDeath" value="240" />
 			<property name="LootListOnDeath" value="1011"/>
         </entity_class>
         <entity_class name="zombieExcitusTemplateFemale" extends="zombieExcitusTemplateMale">
@@ -3048,7 +3048,7 @@
 
 	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?ButcherDistortion"/>
 	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?ButcherDistortion"/>
-	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="TimeStayAfterDeath" value="120"/>
 	<property name="DeadBodyHitPoints" value="350"/>
 	
 	<effect_group name="Base Effects">
@@ -3085,7 +3085,7 @@
 
 	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?LibrarianDistortion"/>
 	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?LibrarianDistortion"/>
-	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="TimeStayAfterDeath" value="120"/>
 	<property name="DeadBodyHitPoints" value="350"/>
 	
 	<effect_group name="Base Effects">
@@ -3121,7 +3121,7 @@
 
 	<property name="ReplaceMaterial0" value="#@modfolder:Resources/MagistersMansion.unity3d?BoilerDistortion"/>
 	<property name="ReplaceMaterial1" value="#@modfolder:Resources/MagistersMansion.unity3d?BoilerDistortion"/>
-	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="TimeStayAfterDeath" value="120"/>
 	<property name="DeadBodyHitPoints" value="350"/>
 	
 	<effect_group name="Base Effects">

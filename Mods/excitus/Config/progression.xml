@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
 <set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value]/@value">10,30,40,50,105</set>
-	
+<append xpath="//perk[@name='perkBatterUpBigHits']//requirement[@name='HoldingItemHasTags']/@tags">,bat</append>
+<append xpath="//perk[@name='perkBatterUpBaseballBats']//passive_effect[@name='RecipeTagUnlocked']/@tags">,meleeAluminumBat,meleePlainBat</append>
+<append xpath="//perk[@name='perkBatterUpComplete']//requirement[@name='HoldingItemHasTags']/@tags">,bat</append>
 	<append xpath="/progression/perks">
 	
 		<perk name="CraftSpeed" parent="Excitus" name_key="Schneller Herstellen" desc_key="Du willst nicht lange warten beim herstellen... Dann bist du hier richtig" icon="ui_game_symbol_schnellercraften">

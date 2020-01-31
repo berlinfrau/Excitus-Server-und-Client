@@ -542,3 +542,84 @@ killerhasefleisch,items,Food,,,Fleisch vom Killer Hase
 killerhasefleischhDesc,items,Food,,,Sehr sehr sehr hohe Wahrscheinlichkeit einer Lebensmittelvergiftung. \n \n Du müsstest ziemlich dumm sein um dies zu essen.,
 Miniatombombe,items,Gun,,,Heilige Mini Atombombe
 MiniatombombeDesc,items,Gun,,,"Segne dies o Herr damit du deine Feinde in deiner Barmherzigkeit in winzige Stücke schlägst"
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+meleeAluminumBat,items,Melee,New,Aluminum Baseballschläger,,,,,
+meleeAluminumBatDesc,items,Melee,New,The Aluminum T3 Baseballschläger ist ein kleiner Ligafavorit braucht weniger Ausdauer zum Schwingen. \n \ nMit einem Reparaturset reparieren. \n Zerlegen bringt Baseballschläger-Teile.,,,,,
+meleeAluminumBatSchematic,items,Melee,New,Aluminum Baseballschläger Schematic,,,,,
+meleePlainBat,items,Melee,New,Einfacher Baseballschläger,,,,,
+meleePlainBatDesc,items,Melee,New,Einfacher Baseballschläger ist ein einfacher T1-Baseballschläger aus Holz. \n \nMit einem Reparaturkit reparieren. \nZerlegen bringt Baseball-Baseballschläger-Teile.,,,,,
+meleePlainBatSchematic,items,Melee,New,Einfacher Baseballschläger Schematic,,,,,
+MeleeBatLegendarySawBat,items,Melee,New,Legendäre Säge Baseballschläger,,,,,
+meleeLegendarySawBatDesc,items,Melee,New,Der Sägen Baseballschläger ist ein animierter legendärer (T4?) Baseballschläger. \n \nMit einem Reparaturkit reparieren. \ nRelegen bringt Baseballschläger-Teile.,,,,,
+modBeanCanBat,item_modifiers,mod,New,Bohnenkanne Baseballschläger Mod,,,,,
+modBeanCanBatDesc,item_modifiers,mod,New,"20% Chance Blutungsschaden zu verursachen 40% bei Kraftangriffen. \nKann im Baseballschläger installiert werden.",,,,,
+modBeanCanBatSchematic,item_modifiers,Mod,New,Bohnenkanne Baseballschläger Mod Schema,,,,,
+modHoeBat,item_modifiers,mod,New,Hacke Baseballschläger Mod,,,,,
+modHoeBatDesc,item_modifiers,mod,New,"50% Chance mit Kraftangriffen zu betäuben. \nKann in Baseballschläger installiert werden.",,,,,
+modHoeBatSchematic,item_modifiers,Mod,New,Hacke Baseballschläger Mod Schema,,,,,
+modPickBat,item_modifiers,mod,New,Pick Baseballschläger Mod,,,,,
+modPickBatDesc,item_modifiers,mod,New,"20% Chance Blutungsschaden zu verursachen 40% bei Kraftangriffen. \nKann im Baseballschläger installiert werden.",,,,,
+modPickBatSchematic,item_modifiers,Mod,New,Pick Baseballschläger Mod Schematic,,,,,
+modCrownBat,item_modifiers,mod,New,Krone Baseballschläger Mod,,,,,
+modCrownBatDesc,item_modifiers,mod,New,"Fügt einen Nahbereich schaden (10-Block-Bereich) hinzu. AOE-Charisma-Buff beim Halten des Baseballschlägers. \nKann in Baseballschläger installiert werden.",,,,,
+modCrownBatSchematic,item_modifiers,Mod,New,Krone Baseballschläger Mod Schematic,,,,,
+modBarbedBat,item_modifiers,mod,New,Stacheldraht Baseballschläger Mod,,,,,
+modNautilusBat,item_modifiers,mod,New,Nautilus Baseballschläger Mod,,,,,
+modNautilusBatDesc,item_modifiers,mod,New,"Schrottet die Rüstung bei Kontakt! \nKann im Baseballschläger installiert werden.",,,,,
+modNautilusBatSchematic,item_modifiers,Mod,New,Nautilus Baseballschläger Mod Schematic,,,,,
+modBarbedBat,item_modifiers,mod,New,Stacheldraht Baseballschläger Mod,,,,,
+modBarbedBatDesc,item_modifiers,mod,New,"Chance von 20% Blutungsschaden zu verursachen 40% bei Kraftangriffen. \nKann im Baseballschläger installiert werden.",,,,,
+modBarbedBatSchematic,item_modifiers,Mod,New,Widerhaken Baseballschläger Mod Schematic,,,,,
+modAxeBat,item_modifiers,mod,New,Axt Baseballschläger Mod,,,,,
+modAxeBatDesc,item_modifiers,mod,New,"Chance von 20% Blutungsschaden zu verursachen 40% bei Kraftangriffen. \nKann im Baseballschläger installiert werden.",,,,,
+modAxeBatSchematic,item_modifiers,Mod,New,Axt Baseballschläger Mod Schematic,,,,,
+modMaceBat,item_modifiers,mod,New,Morgenstern Baseballschläger Mod,,,,,
+modMaceBatDesc,item_modifiers,mod,New,"Chance von 20% die Bösen niederzuschlagen. \nKann in Baseballschläger installiert werden.",,,,,
+modMaceBatSchematic,item_modifiers,Mod,New,Morgenstern Baseballschläger Mod Schematic,,,,,
+modKanaboBat,item_modifiers,mod,New,Kanabo Baseballschläger Mod,,,,,
+modKanaboBatDesc,item_modifiers,mod,New,"Fetzt die Rüstung bei Kontakt! \nKann im Baseballschläger installiert werden.",,,,,
+modKanaboBatSchematic,item_modifiers,Mod,New,Kanabo Baseballschläger Mod Schema,,,,,
+modNailedBat,item_modifiers,mod,New,Genagelt Baseballschläger Mod,,,,,
+modNailedBatDesc,item_modifiers,mod,New,"Fetzt die Rüstung bei Kontakt! \nKann im Baseballschläger installiert werden.",,,,,
+modNailedBatSchematic,item_modifiers,Mod,New,Genagelt Baseballschläger Mod Schematic,,,,,
+modSmallGearBat,item_modifiers,mod,New,Kleines Zahnrad Baseballschläger Mod,,,,,
+modSmallGearBatDesc,item_modifiers,mod,New,"10% Chance zu betäuben. \nKann in Baseballschläger installiert werden.",,,,,
+modSmallGearBatSchematic,item_modifiers,Mod,New,Kleines Zahnrad Baseballschläger Mod Schematic,,,,,
+modSpeedBallBat,item_modifiers,mod,New,SpeedBall Baseballschläger Mod,,,,,
+modSpeedBallBatDesc,item_modifiers,mod,New,"Beschleunigt deine Angriffsrate. \nKann in Baseballschläger installiert werden",,,,,
+modSpeedBallBatSchematic,item_modifiers,Mod,New,SpeedBall Baseballschläger Mod Schematic,,,,,
+modWeightGearBat,item_modifiers,mod,New,WeightGear Baseballschläger Mod,,,,,
+modWeightGearBatDesc,item_modifiers,mod,New,"20% Chance zu betäuben. \nKann in Baseballschläger installiert werden.",,,,,
+modWeightGearBatSchematic,item_modifiers,Mod,New,WeightGear Baseballschläger Mod Schematic,,,,,
+modSparkyBat,item_modifiers,mod,New,Sparky Baseballschläger Mod,,,,,
+modSparkyBatDesc,item_modifiers,mod,New,"Ändert die Schadensart in Elektrik und fügt ein wenig Schaden hinzu. \nKann in den Aluminium- und einfachen Baseballschlägern installiert werden.",,,,,
+modSparkyBatSchematic,item_modifiers,Mod,New,Sparky Baseballschläger Mod Schematic,,,,,
+modBurningBat,item_modifiers,mod,New,Feuer Baseballschläger Mod,,,,,
+modBurningBatDesc,item_modifiers,mod,New,"Ändert die Schadensart in Hitze und fügt ein wenig Schaden hinzu. \nKann in den Aluminium- und einfachen Baseballschlägern installiert werden.",,,,,
+modBurningBatSchematic,item_modifiers,Mod,New,Feuer Baseballschläger Mod Schematic,,,,,
+modGripRubberBat,item_modifiers,mod,New,Griffgummi Baseballschläger Mod,,,,,
+modGripRubberBatDesc,item_modifiers,mod,New,"Reduziert den Ausdauerverlust beim Schwingen des Baseballschlägers. \nKann im Baseballschläger installiert werden.",,,,,
+modGripRubberBatSchematic,item_modifiers,Mod,New,Griffgummi Baseballschläger Mod Schematic,,,,,
+modGripLeatherBat,item_modifiers,mod,New,Leder Griff Baseballschläger Mod,,,,,
+modGripLeatherBatDesc,item_modifiers,mod,New,"Reduziert leicht den Ausdauerverlust beim Schwingen des Baseballschlägers. \nKann im Baseballschläger installiert werden.",,,,,
+modGripLeatherBatSchematic,item_modifiers,Mod,New,Leder Griff Baseballschläger Mod Schematic,,,,,
+modPommelHoundBat,item_modifiers,mod,New,Pauschenhund Baseballschläger Mod,,,,,
+modPommelHoundBatDesc,item_modifiers,mod,New,"Heilt dich im Laufe der Zeit wenn deine Gesundheit unter 80% liegt. \nKann im Baseballschläger installiert werden.",,,,,
+modPommelHoundBatSchematic,item_modifiers,Mod,New,Pauschenhund Baseballschläger Mod Schematic,,,,,
+modPommelPantherBat,item_modifiers,mod,New,Pauschenpanther Baseballschläger Mod,,,,,
+modPommelPantherBatDesc,item_modifiers,mod,New,"Heilt dich im Laufe der Zeit wenn deine Gesundheit unter 50% liegt. \nKann im Baseballschläger installiert werden",,,,,
+modPommelPantherBatSchematic,item_modifiers,Mod,New,Pauschenpanther Baseballschläger Mod Schematic,,,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
