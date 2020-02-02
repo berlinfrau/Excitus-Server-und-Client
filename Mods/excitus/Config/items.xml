@@ -3078,8 +3078,6 @@
             <property name="CraftingIngredientTime" value=".05"/>
         </item>
     </append>
-
-	<set xpath="/items/item[@name='meleeHandZombieStripper']/property[@class='Action0']/property[@name='Buff']/@value">,ExcitusInfektion</set>
 	
 <append xpath="/items">
 

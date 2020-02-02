@@ -1913,12 +1913,12 @@
   </append>
   <append xpath="/recipes">
 	
-<recipe name="Excitus Heilungskit" count="1" craft_time = "60">
-	<ingredient name="drugHerbalAntibiotics" count="2"/>
-	<ingredient name="drugAntibiotics" count="2"/>
-	<ingredient name="medicalFirstAidKit" count="5"/>
-	<ingredient name="medicalFirstAidBandage" count="5"/>
-	<ingredient name="medicalBandage" count="10"/>
+<recipe name="Excitus Heilungskit" count="1" craft_time = "30">
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="drugAntibiotics" count="1"/>
+	<ingredient name="medicalFirstAidKit" count="1"/>
+	<ingredient name="medicalFirstAidBandage" count="3"/>
+	<ingredient name="medicalBandage" count="5"/>
 </recipe>
 
 </append>
