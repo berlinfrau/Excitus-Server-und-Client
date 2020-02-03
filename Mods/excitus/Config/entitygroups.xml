@@ -949,62 +949,62 @@
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS3']">
-    <entity name="Killer Hase" prob=".01"/>
+    <entity name="Killer Hase" prob=".1"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS51']">
-    <entity name="Killer Hase" prob=".01"/>
+    <entity name="Killer Hase" prob=".1"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS112']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS242']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS386']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS524']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS724']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS905']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassOnlyHordeStageGS1003']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS21']">
-    <entity name="Killer Hase" prob=".01"/>
+    <entity name="Killer Hase" prob=".1"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS40']">
-    <entity name="Killer Hase" prob=".01"/>
+    <entity name="Killer Hase" prob=".1"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS95']">
-    <entity name="Killer Hase" prob=".03"/>
+    <entity name="Killer Hase" prob=".3"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS130']">
-    <entity name="Killer Hase" prob=".03"/>
+    <entity name="Killer Hase" prob=".3"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS217']">
-    <entity name="Killer Hase" prob=".03"/>
+    <entity name="Killer Hase" prob=".3"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS325']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS419']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS524']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS600']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS724']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='badassHordeStageGS858']">
     <entity name="Killer Hase" prob=".1"/>
@@ -1014,37 +1014,37 @@
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS49']">
-    <entity name="Killer Hase" prob=".01"/>
+    <entity name="Killer Hase" prob=".1"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS49']">
-    <entity name="Killer Hase" prob=".01"/>
+    <entity name="Killer Hase" prob=".1"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS59']">
-    <entity name="Killer Hase" prob=".015"/>
+    <entity name="Killer Hase" prob=".15"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS80']">
-    <entity name="Killer Hase" prob=".015"/>
+    <entity name="Killer Hase" prob=".15"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS109']">
-    <entity name="Killer Hase" prob=".02"/>
+    <entity name="Killer Hase" prob=".2"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS140']">
-    <entity name="Killer Hase" prob=".02"/>
+    <entity name="Killer Hase" prob=".2"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS188']">
-    <entity name="Killer Hase" prob=".02"/>
+    <entity name="Killer Hase" prob=".2"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS255']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS312']">
-    <entity name="Killer Hase" prob=".05"/>
+    <entity name="Killer Hase" prob=".5"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS389']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS463']">
-    <entity name="Killer Hase" prob=".07"/>
+    <entity name="Killer Hase" prob=".7"/>
   </append>
   <append xpath="/entitygroups/entitygroup[@name='feralHordeStageGS530']">
     <entity name="Killer Hase" prob=".1"/>
