@@ -608,7 +608,7 @@
     </recipe>
 	</append>
 	<append xpath="/recipes">
-    <recipe name="campfire" count="1" scrapable="False" craft_area="workbench" tags="learnable,workbenchCrafting" >
+    <recipe name="workstationOven" count="1" scrapable="False" craft_area="workbench" tags="learnable,workbenchCrafting" >
         <ingredient name="resourceForgedIron" count="50" />
         <ingredient name="toolCookingGrill" count="2" />
 		<ingredient name="carBattery" count="1" />
